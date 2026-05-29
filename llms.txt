@@ -1,0 +1,13 @@
+# Billion AI Operations Studio
+
+Billion AI Operations Studio sells self-serve digital business kits and remote B2B professional services for AI operations diagnostics, RFP and proposal monitoring setup, and reception AI pilot planning.
+
+Public business site:
+
+- https://billionai.vercel.app/
+
+Important constraints:
+
+- Hosted checkout links must be activated by the payment account owner before payments can be collected.
+- The site does not collect form data, passwords, card data, customer logs, or private documents.
+- Services do not include regulated financial advice, legal representation, medical diagnosis, lending, gambling, employment decisions, or physical goods.
