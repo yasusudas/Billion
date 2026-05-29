@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>受付AI 有人切替チェックリスト | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="受付AIや問い合わせ対応AIで、人間へ戻す条件、禁止応答、例外対応、テスト項目を整理する公開チェックリスト。"
+    />
+    <meta property="og:title" content="受付AI 有人切替チェックリスト | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="受付AIで人間へ戻す条件、禁止応答、例外対応、テスト項目を整理する公開チェックリスト。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/reception-ai-fallback-checklist.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/reception-ai-fallback-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/templates/reception-fallback-rules.html">Fallback rules</a>
+        <a href="/kits/reception-ai-pilot-kit.html">Reception Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>受付AI 有人切替チェックリスト</h1>
+          <p class="lead">
+            受付AIや問い合わせ対応AIで、どの問い合わせをAIが扱い、どの問い合わせを人間へ戻すかを
+            事前に決めるための公開チェックリストです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/reception-ai-pilot-kit.html">View Reception AI Pilot Kit</a>
+            <a class="button secondary" href="/templates/reception-fallback-rules.html">Preview fallback rules</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="Reception AI fallback checklist">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>1</span><p>Classify inquiry type</p></div>
+            <div class="visual-row"><span>2</span><p>Limit allowed response</p></div>
+            <div class="visual-row"><span>3</span><p>Route exceptions</p></div>
+            <div class="visual-row accent"><span>4</span><p>Review pilot results</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Fallback triggers</p>
+          <h2>人間へ戻す条件</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Decision</p>
+            <h3>最終判断が必要</h3>
+            <p>予約確定、料金変更、返金、契約、請求、個別条件の判断は人間へ戻します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Complaint</p>
+            <h3>苦情や不満</h3>
+            <p>怒り、失望、事故、トラブル、SNS投稿示唆などはAIだけで応答しない設計にします。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Sensitive</p>
+            <h3>機微な内容</h3>
+            <p>健康、安全、法律、金融、雇用、個人に関わる判断は対象外にします。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Unclear</p>
+            <h3>意図が不明</h3>
+            <p>分類不能、情報不足、複数の意味がある問い合わせは追加確認または人間対応へ戻します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">System limit</p>
+            <h3>参照情報が不足</h3>
+            <p>公式情報源に根拠がない回答、古い情報、内部確認が必要な回答は止めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Pilot review</p>
+            <h3>テストで誤分類</h3>
+            <p>dry-runで誤分類が出た問い合わせ種別は、パイロット範囲から外します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Rule fields</p>
+          <h2>fallback rulesの列</h2>
+        </div>
+        <div class="template-table" aria-label="Reception AI fallback rule fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example</div>
+          <div>Review point</div>
+          <div>Related kit</div>
+          <div>trigger</div>
+          <div>有人切替が必要になる条件。</div>
+          <div>Refund request detected</div>
+          <div>運用者が判定できるか。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>ai_allowed_response</div>
+          <div>AIが返してよい範囲。</div>
+          <div>Human team will review</div>
+          <div>確約になっていないか。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>human_action</div>
+          <div>人間側の次アクション。</div>
+          <div>Review case and send reply</div>
+          <div>担当者が明確か。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>test_case</div>
+          <div>dry-runで使う入力例。</div>
+          <div>Customer asks for refund</div>
+          <div>検収前に試せるか。</div>
+          <div>Reception AI Pilot Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>完全自動受付ではありません</h2>
+        </div>
+        <p class="section-lead">
+          このリソースは受付AIのパイロット設計を助けるものです。顧客対応品質、事故防止、
+          問い合わせ削減、成約、法令適合を保証するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for reception AI fallback planning.</p>
+    </footer>
+  </body>
+</html>
