@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIエージェント運用管理テンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="AIエージェントの業務利用前に、許可アクション、禁止アクション、承認点、例外処理、停止条件を整理する公開テンプレート解説。"
+    />
+    <meta property="og:title" content="AIエージェント運用管理テンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AIエージェントの許可アクション、禁止アクション、承認点、例外処理、停止条件を整理する公開テンプレート解説。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/ai-agent-governance-template.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/ai-agent-governance-template.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/templates/ai-ops-control-matrix.html">Control matrix</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>AIエージェント運用管理テンプレート</h1>
+          <p class="lead">
+            AIエージェントに「何をさせてよいか」「何をさせてはいけないか」を、業務単位で
+            書き出すための公開テンプレート解説です。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/templates/ai-ops-control-matrix.html">Preview template fields</a>
+            <a class="button secondary" href="/kits/ai-ops-diagnostic-kit.html">View related kit</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Template structure</p>
+          <h2>最低限そろえる列</h2>
+        </div>
+        <div class="template-table" aria-label="AI agent governance template fields">
+          <div>列</div>
+          <div>意味</div>
+          <div>記入例</div>
+          <div>確認観点</div>
+          <div>関連キット</div>
+          <div>agent_task</div>
+          <div>AIエージェントに任せる業務タスク。</div>
+          <div>問い合わせ分類の下書き</div>
+          <div>業務範囲は限定されているか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>allowed_action</div>
+          <div>実行してよいアクション。</div>
+          <div>候補カテゴリを提案する</div>
+          <div>外部影響がないか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>blocked_action</div>
+          <div>実行させないアクション。</div>
+          <div>契約条件を確定する</div>
+          <div>禁止事項が観測可能か。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>approval_gate</div>
+          <div>人間承認が必要な地点。</div>
+          <div>顧客送信前レビュー</div>
+          <div>承認者が停止できるか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Operating notes</p>
+          <h2>導入初期の注意点</h2>
+        </div>
+        <ol class="process-list">
+          <li><strong>自動実行より前に分類を固める:</strong> 最初は候補提示や下書き生成に限定し、承認なしの外部影響を避けます。</li>
+          <li><strong>例外を先に書く:</strong> 金銭、契約、個人情報、医療、法務、採用に近いケースは手動運用へ戻します。</li>
+          <li><strong>証跡を軽く残す:</strong> 入力、出力、レビュー、修正理由を、後で確認できる形にします。</li>
+          <li><strong>停止条件を明文化する:</strong> 誤回答、範囲外、信頼できない情報源、承認者不在のときは止めます。</li>
+        </ol>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>テンプレートの位置づけ</h2>
+        </div>
+        <p class="section-lead">
+          このページは業務整理用の公開リソースです。AIエージェントの安全性、法令適合、
+          セキュリティ、売上成果を保証するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI agent operating boundaries.</p>
+    </footer>
+  </body>
+</html>
