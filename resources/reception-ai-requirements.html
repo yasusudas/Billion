@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>受付AI要件定義テンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="受付AIや問い合わせ対応AIのパイロット前に、問い合わせ種別、許可応答、禁止応答、有人切替、検収条件を整理する公開テンプレート解説。"
+    />
+    <meta property="og:title" content="受付AI要件定義テンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="受付AIの問い合わせ種別、許可応答、禁止応答、有人切替、検収条件を整理する公開テンプレート解説。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/reception-ai-requirements.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/reception-ai-requirements.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/templates/reception-inquiry-map.html">Inquiry map</a>
+        <a href="/kits/reception-ai-pilot-kit.html">Reception Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>受付AI要件定義テンプレート</h1>
+          <p class="lead">
+            受付AIや問い合わせ対応AIを試す前に、問い合わせ種別、許可応答、禁止応答、
+            有人切替、検収条件を整理するための公開リソースです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/reception-ai-pilot-kit.html">View Reception AI Pilot Kit</a>
+            <a class="button secondary" href="/templates/reception-inquiry-map.html">Preview inquiry map</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Requirements</p>
+          <h2>パイロット前に決める項目</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Inquiry</p>
+            <h3>問い合わせ種別</h3>
+            <p>予約、営業時間、資料請求、採用、クレーム、契約、請求などを分類します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Allowed</p>
+            <h3>許可応答</h3>
+            <p>案内してよい内容、参照してよい情報源、返答してよい粒度を決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Blocked</p>
+            <h3>禁止応答</h3>
+            <p>料金確約、契約確定、個別判断、医療・法律・金融判断などの禁止事項を明記します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Fallback</p>
+            <h3>有人切替</h3>
+            <p>曖昧、範囲外、感情的、緊急、個人情報を含む問い合わせの戻し先を決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Acceptance</p>
+            <h3>検収条件</h3>
+            <p>テスト件数、誤分類の許容範囲、禁止応答ゼロ、切替条件の確認などを決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Evidence</p>
+            <h3>レビュー記録</h3>
+            <p>テスト入力、AI応答、人間レビュー、修正方針を残します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Pilot fit</p>
+          <h2>Reception AI Pilot Kitが合う場面</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            問い合わせ種別や有人切替条件がまだ曖昧な段階では、いきなり自動応答を広げるより、
+            inquiry map、fallback rules、dry-run script、operator review logで小さく検証する方が扱いやすくなります。
+          </p>
+          <p>
+            このリソースは受付AIの初期整理を支援するもので、顧客対応品質、法令適合、
+            事故防止、成約、問い合わせ削減を保証するものではありません。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for reception AI pilot requirements.</p>
+    </footer>
+  </body>
+</html>
