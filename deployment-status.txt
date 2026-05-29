@@ -1,0 +1,9 @@
+Billion AI Operations Studio deployment status
+
+Date: 2026-05-29 JST
+Policy: no-touch self-serve digital kit storefront
+Production URL: https://billionai.vercel.app/
+Hosted checkout: not connected
+Orders/contracts/invoices/payments: no confirmed facts
+Revenue: JPY 0
+Manual outreach/contact routes: not used
