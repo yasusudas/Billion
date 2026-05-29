@@ -43,6 +43,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://billionai.vercel.app/receipt-support.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://billionai.vercel.app/support.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -73,6 +79,114 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://billionai.vercel.app/buyers/ai-operations-manager.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/buyers/front-office-manager.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/buyers/proposal-manager.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/guides/ai-operations-risk-checklist.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/guides/reception-ai-pilot-plan.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/guides/rfp-radar-workflow.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/kits/ai-operations-starter-bundle.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/kits/ai-ops-diagnostic-kit.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/kits/reception-ai-pilot-kit.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/kits/rfp-radar-setup-kit.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-agent-approval-workflow-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-agent-governance-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-agent-human-review-checklist.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-agent-operation-checklist.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-risk-register-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-workflow-evidence-log-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/generative-ai-approval-request-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/generative-ai-template-comparison.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://billionai.vercel.app/resources/llm-operations-checklist.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -85,37 +199,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/resources/ai-agent-governance-template.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/ai-agent-operation-checklist.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/ai-agent-approval-workflow-template.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/rfp-monitoring-template.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/rfp-keyword-design-guide.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/reception-ai-requirements.html</loc>
+    <loc>https://billionai.vercel.app/resources/reception-ai-fallback-checklist.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -127,49 +211,37 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/resources/ai-agent-human-review-checklist.html</loc>
+    <loc>https://billionai.vercel.app/resources/reception-ai-requirements.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/resources/ai-workflow-evidence-log-template.html</loc>
+    <loc>https://billionai.vercel.app/resources/reception-ai-test-script-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/rfp-go-no-go-checklist.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/rfp-keyword-design-guide.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/rfp-monitoring-template.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://billionai.vercel.app/resources/rfp-opportunity-scorecard-template.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/reception-ai-fallback-checklist.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/resources/generative-ai-template-comparison.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/buyers/ai-operations-manager.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/buyers/proposal-manager.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/buyers/front-office-manager.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -187,18 +259,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/templates/rfp-keyword-tracker.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/templates/rfp-source-map.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://billionai.vercel.app/templates/reception-fallback-rules.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -211,43 +271,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/kits/ai-ops-diagnostic-kit.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/kits/rfp-radar-setup-kit.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/kits/reception-ai-pilot-kit.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/kits/ai-operations-starter-bundle.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/guides/ai-operations-risk-checklist.html</loc>
+    <loc>https://billionai.vercel.app/templates/rfp-keyword-tracker.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/guides/rfp-radar-workflow.html</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://billionai.vercel.app/guides/reception-ai-pilot-plan.html</loc>
+    <loc>https://billionai.vercel.app/templates/rfp-source-map.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -259,13 +289,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/use-cases/rfp-monitoring-workflow.html</loc>
+    <loc>https://billionai.vercel.app/use-cases/reception-ai-pilot.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://billionai.vercel.app/use-cases/reception-ai-pilot.html</loc>
+    <loc>https://billionai.vercel.app/use-cases/rfp-monitoring-workflow.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
