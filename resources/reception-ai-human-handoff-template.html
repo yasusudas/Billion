@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>受付AI有人切替テンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="受付AIや問い合わせAIで、人間へ戻す条件、禁止応答、例外、テスト項目、レビュー記録を整理する公開テンプレート解説。"
+    />
+    <meta property="og:title" content="受付AI有人切替テンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="受付AIで人間へ戻す条件、禁止応答、例外、テスト項目を整理する公開テンプレート。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/reception-ai-human-handoff-template.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/reception-ai-human-handoff-template.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/resources.html">Resources</a>
+        <a href="/templates/reception-inquiry-map.html">Inquiry map</a>
+        <a href="/kits/reception-ai-pilot-kit.html">Reception Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>受付AI有人切替テンプレート</h1>
+          <p class="lead">
+            受付AIや問い合わせAIのパイロット前に、AIが答えてよい内容、人間へ戻す条件、
+            禁止応答、テスト項目を整理するための公開テンプレート解説です。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/reception-ai-pilot-kit.html">View Reception AI Pilot Kit</a>
+            <a class="button secondary" href="/resources/reception-ai-requirements.html">Reception requirements</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="Reception AI handoff overview">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>OK</span><p>定型案内</p></div>
+            <div class="visual-row"><span>ASK</span><p>確認が必要</p></div>
+            <div class="visual-row"><span>STOP</span><p>禁止応答</p></div>
+            <div class="visual-row accent"><span>HUM</span><p>人間へ戻す</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Handoff rules</p>
+          <h2>有人切替に入れる条件</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Complaint</p>
+            <h3>苦情と不満</h3>
+            <p>怒り、返金、謝罪、クレーム、SNS投稿示唆はAIだけで進めない設計にします。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Contract</p>
+            <h3>契約と請求</h3>
+            <p>契約条件、料金、請求、解約、返金に関わる内容は人間へ戻します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Personal data</p>
+            <h3>個人情報</h3>
+            <p>本人確認、住所、連絡先、健康、雇用、安全に近い情報は範囲外にします。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Ambiguous</p>
+            <h3>曖昧な問い合わせ</h3>
+            <p>複数の意味がある、必要情報が足りない、文脈が不明な場合は確認へ戻します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Emergency</p>
+            <h3>緊急性がある内容</h3>
+            <p>事故、けが、危険、停止依頼などは通常のAI応答から外します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Out of scope</p>
+            <h3>業務範囲外</h3>
+            <p>営業時間や一般案内を超える判断は、担当者確認へ切り替えます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Template fields</p>
+          <h2>有人切替表の項目例</h2>
+        </div>
+        <div class="template-table" aria-label="Reception AI human handoff fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example</div>
+          <div>Review question</div>
+          <div>Related kit</div>
+          <div>inquiry_type</div>
+          <div>問い合わせ種別。</div>
+          <div>返金について</div>
+          <div>AIが扱う範囲か。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>ai_allowed</div>
+          <div>AIが回答してよいか。</div>
+          <div>No</div>
+          <div>禁止応答に近いか。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>handoff_reason</div>
+          <div>人間へ戻す理由。</div>
+          <div>Billing topic</div>
+          <div>理由が具体的か。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>test_case</div>
+          <div>dry-runで使う入力例。</div>
+          <div>解約したいです</div>
+          <div>想定問い合わせが足りるか。</div>
+          <div>Reception AI Pilot Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>受付AIの設計補助です</h2>
+        </div>
+        <p class="section-lead">
+          このリソースは受付AIパイロットの範囲整理を助ける公開資料です。顧客満足、
+          問い合わせ削減、クレーム防止、法令適合、個別業務への適合を保証するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for reception AI human handoff planning.</p>
+    </footer>
+  </body>
+</html>

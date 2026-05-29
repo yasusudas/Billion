@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI業務ガバナンスチェックリスト | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="AI業務やAIエージェントを社内で使う前に、担当者、承認点、停止条件、証跡、禁止範囲を整理する公開チェックリスト。"
+    />
+    <meta property="og:title" content="AI業務ガバナンスチェックリスト | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AI業務の担当者、承認点、停止条件、証跡、禁止範囲を整理する公開チェックリスト。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/ai-operations-governance-checklist.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/ai-operations-governance-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/resources.html">Resources</a>
+        <a href="/templates/ai-ops-control-matrix.html">Control matrix</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>AI業務ガバナンスチェックリスト</h1>
+          <p class="lead">
+            生成AIやAIエージェントを業務に入れる前に、担当者、承認点、停止条件、
+            証跡、禁止範囲を最低限そろえるための公開チェックリストです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/resources/ai-agent-human-review-checklist.html">Human review checklist</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="Governance checklist outline">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>1</span><p>Owner and scope</p></div>
+            <div class="visual-row"><span>2</span><p>Approval before impact</p></div>
+            <div class="visual-row"><span>3</span><p>Stop condition</p></div>
+            <div class="visual-row accent"><span>4</span><p>Evidence note</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Checklist</p>
+          <h2>最初に決める6項目</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Scope</p>
+            <h3>AIに任せる業務範囲</h3>
+            <p>文章案、要約、分類、検索補助など、AIが扱う作業を限定します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Owner</p>
+            <h3>業務責任者</h3>
+            <p>出力内容の最終責任者と、日常のレビュー担当を分けて記録します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Data</p>
+            <h3>入力してよい情報</h3>
+            <p>公開情報、社内要約、個人情報、契約情報などの扱いを先に決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Approval</p>
+            <h3>承認が必要な場面</h3>
+            <p>外部送信、金銭、契約、採用、法務、医療、安全に近い判断を止めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Fallback</p>
+            <h3>人間へ戻す条件</h3>
+            <p>範囲外、根拠不足、曖昧、例外、苦情、緊急時の戻し方を決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Evidence</p>
+            <h3>判断記録</h3>
+            <p>実行日、確認者、修正理由、停止理由を安全な要約で残します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Starter table</p>
+          <h2>管理表の項目例</h2>
+        </div>
+        <div class="template-table" aria-label="AI operations governance table fields">
+          <div>Field</div>
+          <div>Purpose</div>
+          <div>Example</div>
+          <div>Review point</div>
+          <div>Related kit</div>
+          <div>workflow_name</div>
+          <div>AIを使う業務名。</div>
+          <div>問い合わせ分類</div>
+          <div>範囲が狭く定義されているか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>owner</div>
+          <div>業務責任者。</div>
+          <div>Operations lead</div>
+          <div>判断者が明確か。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>approval_point</div>
+          <div>人間確認が必要な時点。</div>
+          <div>外部送信前</div>
+          <div>影響前に止められるか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>stop_condition</div>
+          <div>AIだけで進めない条件。</div>
+          <div>契約条件が出た場合</div>
+          <div>例外が具体的か。</div>
+          <div>AI Ops Diagnostic Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>保証ではなく運用整理です</h2>
+        </div>
+        <p class="section-lead">
+          このリソースは社内のAI業務運用を整理するための公開資料です。法令適合、
+          セキュリティ認証、事故防止、監査対応、売上成果を保証するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI operations governance planning.</p>
+    </footer>
+  </body>
+</html>

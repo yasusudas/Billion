@@ -9,8 +9,8 @@ Preferred GitHub repository for Vercel import: `yasusudas/Billion`.
 - Business name: `Billion AI Operations Studio`
 - Business category: `Professional services / Consulting`
 - Business website URL: `https://billionai.vercel.app/`
-- Product description: `Billion AI Operations Studio sells self-serve digital business kits and B2B professional services for AI operations diagnostics, RFP and proposal monitoring setup, and reception AI pilot planning. Self-serve products are downloadable templates and checklists delivered through hosted checkout success pages. Professional services are delivered remotely through workshops, operational review, document analysis, and written deliverables such as diagnostic reports, control matrices, implementation roadmaps, and acceptance checklists. We do not provide regulated financial advice, legal representation, medical diagnosis, lending, gambling, or physical goods.`
-- Japanese product description: `Billion AI Operations Studioは、法人向けにAI業務運用診断、RFP・提案機会の監視ワークフロー構築、受付・問い合わせ対応AIのパイロット設計に関するセルフサービス型デジタルキットと専門サービスを提供します。セルフサービス商品は、ホスト型決済の成功後ページで納品されるテンプレートとチェックリストです。専門サービスはオンラインでのヒアリング、業務レビュー、資料分析、診断レポート、統制マトリクス、導入ロードマップ、検収チェックリストなどの成果物として提供します。金融助言、法律代理、医療診断、融資、ギャンブル、物品販売は行いません。`
+- Product description: `Billion AI Operations Studio sells self-serve downloadable business templates, checklists, and operating guides for AI operations planning, public RFP monitoring, and reception AI pilot preparation. Products are delivered through hosted checkout success pages or provider-gated fulfillment after checkout activation. This storefront does not provide custom consulting, workshops, manual onboarding, implementation services, buyer-specific advisory support, regulated financial advice, legal representation, medical diagnosis, lending, gambling, or physical goods.`
+- Japanese product description: `Billion AI Operations Studioは、法人向けにAI業務運用計画、公開RFP・提案機会の監視、受付・問い合わせ対応AIのパイロット準備に使うセルフサービス型のダウンロード可能なテンプレート、チェックリスト、運用ガイドを販売します。商品はホスト型決済の成功後ページ、または決済事業者側で保護された納品導線で提供されます。このストアフロントでは、個別コンサルティング、ワークショップ、手動オンボーディング、実装支援、購入者別の助言、金融助言、法律代理、医療診断、融資、ギャンブル、物品販売は行いません。`
 - Statement descriptor, kanji: `億業務AI支援`
 - Statement descriptor, katakana: `ビリオンエーアイスタジオ`
 - Statement descriptor, English: `BILLION AI STUDIO`
@@ -59,6 +59,9 @@ generated HTML only after account-owner activation and validation.
 - `compare.html`
 - `samples.html`
 - `purchase-self-check.html`
+- `resources.html`
+- `no-contact-operation.html`
+- `receipt-support.html`
 - `support.html`
 - `delivery-access.html`
 - `resources/llm-operations-checklist.html`
@@ -66,15 +69,22 @@ generated HTML only after account-owner activation and validation.
 - `resources/ai-agent-governance-template.html`
 - `resources/ai-agent-operation-checklist.html`
 - `resources/ai-agent-approval-workflow-template.html`
+- `resources/ai-operations-governance-checklist.html`
 - `resources/rfp-monitoring-template.html`
+- `resources/rfp-monitoring-excel-template.html`
 - `resources/rfp-keyword-design-guide.html`
 - `resources/reception-ai-requirements.html`
 - `resources/reception-ai-prelaunch-checklist.html`
+- `resources/reception-ai-human-handoff-template.html`
 - `resources/ai-agent-human-review-checklist.html`
 - `resources/ai-workflow-evidence-log-template.html`
 - `resources/rfp-opportunity-scorecard-template.html`
 - `resources/reception-ai-fallback-checklist.html`
 - `resources/generative-ai-template-comparison.html`
+- `resources/generative-ai-approval-request-template.html`
+- `resources/ai-risk-register-template.html`
+- `resources/rfp-go-no-go-checklist.html`
+- `resources/reception-ai-test-script-template.html`
 - `buyers/ai-operations-manager.html`
 - `buyers/proposal-manager.html`
 - `buyers/front-office-manager.html`
@@ -84,6 +94,11 @@ generated HTML only after account-owner activation and validation.
 - `templates/rfp-source-map.html`
 - `templates/reception-fallback-rules.html`
 - `templates/reception-inquiry-map.html`
+- `templates/ai-ops-workflow-inventory.html`
+- `templates/ai-ops-10-day-action-plan.html`
+- `templates/rfp-weekly-review-sheet.html`
+- `templates/reception-ai-acceptance-checklist.html`
+- `templates/ai-operations-30-day-rollout-plan.html`
 - `delivery/ai-ops-diagnostic-kit.html`
 - `delivery/rfp-radar-setup-kit.html`
 - `delivery/reception-ai-pilot-kit.html`
@@ -132,22 +147,34 @@ Run the static public-site regression check before publishing:
 node scripts/verify-public-site.mjs
 ```
 
+Run the live production regression check after Vercel reflects `main`:
+
+```bash
+node scripts/verify-live-production.mjs --expect-checkout pending
+```
+
 ## Verification notes
 
 - Public, password-free HTML site
 - No payment form
 - No contact form
+- No manual outreach, manual posting, sales calls, custom quote conversations, or manual onboarding
 - No tracking script
 - No client-side JavaScript
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
 - Public purchase self-check page for no-contact kit selection
+- Public no-contact operation page for passive storefront, distribution, checkout, amount, and evidence boundaries
+- Public receipt support boundary page for duplicate purchase, failed delivery, and clear file defect review after hosted checkout activation
+- Public high-intent resource pages for AI approval requests, AI risk registers, RFP go/no-go decisions, and reception AI test scripts
+- Public resource library page and high-intent pages for AI governance checklists, RFP monitoring spreadsheets, and reception AI human handoff planning
 - Public support, terms of sale, business information, and commercial disclosure pages for verification and buyer confidence
 - Public Japanese resource pages for organic discovery around LLM operations, AI agent governance, RFP monitoring, and reception AI requirements
 - Additional public Japanese resource pages for AI agent human review, AI workflow evidence logs, RFP opportunity scoring, and reception AI fallback planning
 - Public English resource page for AI agent approval workflow planning
 - Public buyer role pages for no-call purchase decisions
 - Public template preview pages for organic discovery without exposing delivery files
+- Public paid-deliverable preview pages for AI workflow inventory, 10-day AI operations planning, RFP weekly review, reception AI acceptance, and 30-day rollout planning
 - Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
 - No payment collection without hosted checkout activation
 - Commercial disclosure page prepared; legal seller details and support route still require account-owner confirmation before live checkout
