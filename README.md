@@ -58,15 +58,19 @@ generated HTML only after account-owner activation and validation.
 - `faq.html`
 - `compare.html`
 - `samples.html`
+- `purchase-self-check.html`
+- `support.html`
 - `delivery-access.html`
 - `resources/llm-operations-checklist.html`
 - `resources/ai-agent-governance-template.html`
+- `resources/ai-agent-approval-workflow-template.html`
 - `resources/rfp-monitoring-template.html`
 - `resources/reception-ai-requirements.html`
 - `resources/ai-agent-human-review-checklist.html`
 - `resources/ai-workflow-evidence-log-template.html`
 - `resources/rfp-opportunity-scorecard-template.html`
 - `resources/reception-ai-fallback-checklist.html`
+- `resources/generative-ai-template-comparison.html`
 - `buyers/ai-operations-manager.html`
 - `buyers/proposal-manager.html`
 - `buyers/front-office-manager.html`
@@ -91,11 +95,15 @@ generated HTML only after account-owner activation and validation.
 - `use-cases/rfp-monitoring-workflow.html`
 - `use-cases/reception-ai-pilot.html`
 - `legal/commercial-disclosure.html`
+- `legal/business-information.html`
+- `legal/terms-of-sale.html`
 - `legal/privacy.html`
 - `checkout/activation-spec.md`
 - `checkout/checkout-links.example.json`
 - `scripts/validate-checkout-links.mjs`
 - `scripts/apply-checkout-links.mjs`
+- `scripts/verify-public-site.mjs`
+- `.vercelignore`
 - `sitemap.xml`
 - `llms.txt`
 - `robots.txt`
@@ -107,6 +115,19 @@ Delivery pages are public, noindex delivery manifests for hosted-checkout succes
 
 The public storefront does not link directly to delivery downloads. Static success URLs are still not authentication; use hosted checkout or a dedicated delivery service if stronger access control is required.
 
+`robots.txt` disallows `/checkout/`, `/delivery/`, `/products/`, and `/scripts/`.
+`vercel.json` redirects `/products` and `/products/*` to `/delivery-access` as an
+extra deployment-level guard if stale or accidental product paths exist on a
+hosting target.
+`.vercelignore` excludes `products/**` and `checkout/checkout-links.local.json`
+to reduce CLI misdeploy risk from this local working directory.
+
+Run the static public-site regression check before publishing:
+
+```bash
+node scripts/verify-public-site.mjs
+```
+
 ## Verification notes
 
 - Public, password-free HTML site
@@ -116,8 +137,11 @@ The public storefront does not link directly to delivery downloads. Static succe
 - No client-side JavaScript
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
+- Public purchase self-check page for no-contact kit selection
+- Public support, terms of sale, business information, and commercial disclosure pages for verification and buyer confidence
 - Public Japanese resource pages for organic discovery around LLM operations, AI agent governance, RFP monitoring, and reception AI requirements
 - Additional public Japanese resource pages for AI agent human review, AI workflow evidence logs, RFP opportunity scoring, and reception AI fallback planning
+- Public English resource page for AI agent approval workflow planning
 - Public buyer role pages for no-call purchase decisions
 - Public template preview pages for organic discovery without exposing delivery files
 - Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
