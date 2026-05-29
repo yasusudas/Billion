@@ -32,6 +32,8 @@
       <nav class="nav" aria-label="Kit navigation">
         <a href="/">Store</a>
         <a href="/#pricing">Pricing</a>
+        <a href="/support.html">Support</a>
+        <a href="/legal/terms-of-sale.html">Terms</a>
         <a href="/legal/commercial-disclosure.html">Disclosure</a>
       </nav>
     </header>
@@ -47,8 +49,8 @@
             running a front-office AI pilot.
           </p>
           <div class="hero-actions">
-            <a class="button primary disabled-link" href="/#checkout-activation-required">Payments not yet enabled</a>
-            <a class="button secondary" href="/legal/commercial-disclosure.html">Review terms</a>
+            <a class="button primary disabled-link" href="/#checkout-activation-required" data-checkout-product="reception-ai-pilot-kit">Payments not yet enabled</a>
+            <a class="button secondary" href="/legal/terms-of-sale.html">Review terms</a>
           </div>
         </div>
         <aside class="service-visual" aria-label="Kit contents overview">
@@ -56,7 +58,9 @@
             <div class="visual-row strong"><span>1</span><p>Inquiry map CSV</p></div>
             <div class="visual-row"><span>2</span><p>Fallback rules CSV</p></div>
             <div class="visual-row"><span>3</span><p>Acceptance checklist CSV</p></div>
-            <div class="visual-row accent"><span>4</span><p>Operating guide</p></div>
+            <div class="visual-row"><span>4</span><p>Dry-run script</p></div>
+            <div class="visual-row"><span>5</span><p>Operator review log CSV</p></div>
+            <div class="visual-row accent"><span>6</span><p>Operating guide</p></div>
           </div>
         </aside>
       </section>
@@ -100,6 +104,14 @@
             <h3>Acceptance checklist</h3>
             <p>CSV checklist for pilot scope, routing, fallback, prohibited responses, test cases, metrics, and readiness notes.</p>
           </article>
+          <article class="offer-card">
+            <h3>Dry-run script</h3>
+            <p>Markdown scenario script for testing hours, booking, pricing, complaint, payment, safety, and exception cases.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Operator review log</h3>
+            <p>CSV log for observed results, correction needs, owners, and next review dates before pilot expansion.</p>
+          </article>
         </div>
       </section>
 
@@ -133,6 +145,7 @@
           <li>List the ten most common inquiry types in the inquiry map.</li>
           <li>Mark each inquiry as answer, route, collect basic information, or human fallback.</li>
           <li>Write prohibited actions for pricing, diagnosis, complaint handling, payment, and final confirmation cases.</li>
+          <li>Run the dry-run script on high-risk examples and record results in the operator review log.</li>
           <li>Use the acceptance checklist to decide which test cases must pass before pilot traffic expands.</li>
         </ol>
       </section>

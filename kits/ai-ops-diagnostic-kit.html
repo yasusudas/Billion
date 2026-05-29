@@ -32,6 +32,8 @@
       <nav class="nav" aria-label="Kit navigation">
         <a href="/">Store</a>
         <a href="/#pricing">Pricing</a>
+        <a href="/support.html">Support</a>
+        <a href="/legal/terms-of-sale.html">Terms</a>
         <a href="/legal/commercial-disclosure.html">Disclosure</a>
       </nav>
     </header>
@@ -47,8 +49,8 @@
             expanding LLM or agent usage.
           </p>
           <div class="hero-actions">
-            <a class="button primary disabled-link" href="/#checkout-activation-required">Payments not yet enabled</a>
-            <a class="button secondary" href="/legal/commercial-disclosure.html">Review terms</a>
+            <a class="button primary disabled-link" href="/#checkout-activation-required" data-checkout-product="ai-ops-diagnostic-kit">Payments not yet enabled</a>
+            <a class="button secondary" href="/legal/terms-of-sale.html">Review terms</a>
           </div>
         </div>
         <aside class="service-visual" aria-label="Kit contents overview">
@@ -56,7 +58,9 @@
             <div class="visual-row strong"><span>1</span><p>Control matrix CSV</p></div>
             <div class="visual-row"><span>2</span><p>Risk checklist CSV</p></div>
             <div class="visual-row"><span>3</span><p>10-day plan CSV</p></div>
-            <div class="visual-row accent"><span>4</span><p>Operating guide</p></div>
+            <div class="visual-row"><span>4</span><p>Workflow inventory CSV</p></div>
+            <div class="visual-row"><span>5</span><p>Evidence log CSV</p></div>
+            <div class="visual-row accent"><span>6</span><p>Operating guide</p></div>
           </div>
         </aside>
       </section>
@@ -100,6 +104,14 @@
             <h3>10-business-day plan</h3>
             <p>CSV plan for turning the review into daily tasks, owners, artifacts, and readiness notes.</p>
           </article>
+          <article class="offer-card">
+            <h3>Workflow inventory</h3>
+            <p>CSV inventory for active/planned status, AI role, input boundary, external impact, existing control, and next decision.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Evidence log</h3>
+            <p>CSV log for safe review summaries, decisions, owners, and next review dates without storing private logs.</p>
+          </article>
         </div>
       </section>
 
@@ -131,8 +143,9 @@
         </div>
         <ol class="process-list">
           <li>Open the control matrix and list three AI-assisted workflows that are already active or planned.</li>
+          <li>Use the workflow inventory to separate active workflows from planned pilots.</li>
           <li>Fill owner, data class, approval point, and fallback columns for the highest-risk workflow first.</li>
-          <li>Run the risk checklist against that workflow and mark unknowns as follow-up tasks.</li>
+          <li>Run the risk checklist, then record only a safe review summary in the evidence log.</li>
           <li>Move the first follow-up tasks into the 10-business-day plan with owners and review dates.</li>
         </ol>
       </section>

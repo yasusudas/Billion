@@ -15,12 +15,17 @@ Public business site:
 - https://billionai.vercel.app/support.html
 - https://billionai.vercel.app/legal/commercial-disclosure.html
 - https://billionai.vercel.app/legal/business-information.html
+- https://billionai.vercel.app/legal/commercial-disclosure.html
 - https://billionai.vercel.app/legal/terms-of-sale.html
 - https://billionai.vercel.app/resources/llm-operations-checklist.html
+- https://billionai.vercel.app/resources/llm-usage-policy-template.html
 - https://billionai.vercel.app/resources/ai-agent-governance-template.html
+- https://billionai.vercel.app/resources/ai-agent-operation-checklist.html
 - https://billionai.vercel.app/resources/ai-agent-approval-workflow-template.html
 - https://billionai.vercel.app/resources/rfp-monitoring-template.html
+- https://billionai.vercel.app/resources/rfp-keyword-design-guide.html
 - https://billionai.vercel.app/resources/reception-ai-requirements.html
+- https://billionai.vercel.app/resources/reception-ai-prelaunch-checklist.html
 - https://billionai.vercel.app/resources/ai-agent-human-review-checklist.html
 - https://billionai.vercel.app/resources/ai-workflow-evidence-log-template.html
 - https://billionai.vercel.app/resources/rfp-opportunity-scorecard-template.html

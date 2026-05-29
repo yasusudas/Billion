@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM業務利用ルール雛形 | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="LLMや生成AIを社内業務で使う前に、利用範囲、禁止用途、データ境界、人間確認、証跡、停止条件を整理する公開ルール雛形。"
+    />
+    <meta property="og:title" content="LLM業務利用ルール雛形 | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="生成AIの社内利用ルールを、利用範囲、禁止用途、承認点、証跡、停止条件で整理する公開リソース。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/llm-usage-policy-template.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/llm-usage-policy-template.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/resources/llm-operations-checklist.html">LLM checklist</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>LLM業務利用ルール雛形</h1>
+          <p class="lead">
+            ChatGPT、LLM、生成AIを社内業務で使い始める前に、使ってよい範囲、
+            使ってはいけない範囲、人間確認、証跡、停止条件を整理するための公開リソースです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/templates/ai-ops-risk-checklist.html">Preview risk checklist</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Policy sections</p>
+          <h2>社内ルールに入れる項目</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Purpose</p>
+            <h3>利用目的</h3>
+            <p>調査、要約、下書き、分類、表作成など、LLMに任せる目的を業務単位で書きます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Allowed use</p>
+            <h3>許可する使い方</h3>
+            <p>社内メモの整理、公開情報の要約、テンプレートの下書きなど、低リスク用途を明記します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Blocked use</p>
+            <h3>禁止する使い方</h3>
+            <p>顧客への確定回答、契約条件の決定、金銭判断、個人情報の投入などを対象外にします。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Data</p>
+            <h3>入力データ境界</h3>
+            <p>公開情報、社内一般情報、機密情報、顧客情報などを分類し、投入してよい範囲を決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Review</p>
+            <h3>人間確認</h3>
+            <p>外部送信、顧客影響、契約、請求、採用、医療、法務に近い内容は人間確認へ戻します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Evidence</p>
+            <h3>証跡と停止条件</h3>
+            <p>入力要約、出力要約、レビュー結果、修正理由、停止判断を残す方法を決めます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Draft outline</p>
+          <h2>雛形として使える章立て</h2>
+        </div>
+        <ol class="process-list">
+          <li><strong>対象業務:</strong> LLMを使う業務名、対象チーム、利用開始日、責任者を記載します。</li>
+          <li><strong>許可用途:</strong> 下書き、要約、分類、表作成など、外部影響前の支援用途に限定します。</li>
+          <li><strong>禁止用途:</strong> 判断確定、契約、請求、個人情報処理、規制領域の助言を明記します。</li>
+          <li><strong>承認点:</strong> 顧客送信、公開、金銭、契約、削除、ステータス変更の前に確認者を置きます。</li>
+          <li><strong>記録方法:</strong> 入力、出力、修正、承認、停止の記録項目を定めます。</li>
+          <li><strong>見直し:</strong> 誤回答、範囲外利用、例外発生時の見直し手順を定めます。</li>
+        </ol>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Related kit</p>
+          <h2>運用表に落とす場合</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            ルール文書だけでは運用に落ちにくい場合、AI Ops Diagnostic Kitの統制マトリクス、
+            リスクチェックリスト、証跡ログを使うと、責任者、承認点、停止条件を表で管理できます。
+          </p>
+          <p>
+            このページは業務整理の公開リソースです。法務判断、監査対応、セキュリティ認証、
+            個別業務への適合を提供するものではありません。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for LLM usage policy planning.</p>
+    </footer>
+  </body>
+</html>

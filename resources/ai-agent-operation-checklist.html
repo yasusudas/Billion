@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIエージェント運用チェックリスト | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="AIエージェントを業務へ入れる前に、権限、実行範囲、人間承認、例外処理、ログ、停止条件を整理する公開チェックリスト。"
+    />
+    <meta property="og:title" content="AIエージェント運用チェックリスト | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AIエージェントの権限、承認点、例外処理、停止条件を業務投入前に確認する公開チェックリスト。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/ai-agent-operation-checklist.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/ai-agent-operation-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/resources/ai-agent-governance-template.html">Governance</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>AIエージェント運用チェックリスト</h1>
+          <p class="lead">
+            AIエージェントにタスクを任せる前に、権限、実行範囲、人間承認、
+            例外処理、ログ、停止条件を確認するための公開チェックリストです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/resources/ai-agent-governance-template.html">Read governance template</a>
+            <a class="button secondary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="Agent checklist outline">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>1</span><p>Allowed action</p></div>
+            <div class="visual-row"><span>2</span><p>Human approval</p></div>
+            <div class="visual-row"><span>3</span><p>Exception route</p></div>
+            <div class="visual-row accent"><span>4</span><p>Stop condition</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Checklist</p>
+          <h2>運用前に確認する項目</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Task</p>
+            <h3>任せるタスク</h3>
+            <p>分類、下書き、要約、候補抽出など、AIエージェントが扱う作業を限定します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Permission</p>
+            <h3>許可アクション</h3>
+            <p>読み取り、提案、下書き作成など、外部影響のないアクションから始めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Block</p>
+            <h3>禁止アクション</h3>
+            <p>送信、削除、承認、購入、契約、請求、個人情報の外部送信は対象外にします。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Approval</p>
+            <h3>人間承認</h3>
+            <p>顧客影響、金銭影響、契約影響、公開前の作業は承認者を固定します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Exception</p>
+            <h3>例外処理</h3>
+            <p>範囲外、根拠不足、曖昧、エラー、承認者不在のときは手動運用へ戻します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Log</p>
+            <h3>ログと証跡</h3>
+            <p>入力要約、出力要約、承認、修正、停止理由を後で確認できる形にします。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Fit</p>
+          <h2>AI Ops Diagnostic Kitが合う状態</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            チェック項目を見て、承認点、禁止アクション、例外処理、証跡がまだ未整理なら、
+            AI Ops Diagnostic Kitで業務単位の統制マトリクスへ落とすと整理しやすくなります。
+          </p>
+          <p>
+            このチェックリストはAIエージェント運用の初期整理用です。安全性、法令適合、
+            事故防止、外部サービスでの自動実行結果を保証するものではありません。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI agent operation planning.</p>
+    </footer>
+  </body>
+</html>

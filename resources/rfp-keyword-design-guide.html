@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RFP監視キーワード設計ガイド | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="公開RFP、公募、入札情報を見落としにくくするために、主要語、関連語、除外語、地域、買い手種別を整理するキーワード設計ガイド。"
+    />
+    <meta property="og:title" content="RFP監視キーワード設計ガイド | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="公開RFPや公募情報の監視に使うキーワード、除外語、情報源、週次レビューを設計する公開ガイド。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/rfp-keyword-design-guide.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/rfp-keyword-design-guide.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/templates/rfp-keyword-tracker.html">Keyword tracker</a>
+        <a href="/kits/rfp-radar-setup-kit.html">RFP Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>RFP監視キーワード設計ガイド</h1>
+          <p class="lead">
+            公開RFP、公募、入札情報、提案機会を定期的に確認するために、
+            検索キーワード、除外語、情報源、週次レビューの軸を設計する公開ガイドです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/templates/rfp-keyword-tracker.html">Preview keyword tracker</a>
+            <a class="button secondary" href="/kits/rfp-radar-setup-kit.html">View RFP Radar Setup Kit</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Keyword design</p>
+          <h2>キーワードを5種類に分ける</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Core</p>
+            <h3>主要語</h3>
+            <p>提案したいサービス名、業務名、技術名、課題名を登録します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Variant</p>
+            <h3>言い換え語</h3>
+            <p>AI、生成AI、LLM、自動化、業務支援など、同じ意図の表現を広げます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Buyer</p>
+            <h3>買い手種別</h3>
+            <p>自治体、学校、医療機関、法人、部署名など、発注主体の軸で分けます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Region</p>
+            <h3>地域と対象範囲</h3>
+            <p>都道府県、市区町村、全国、オンライン、対象地域を絞ります。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Exclude</p>
+            <h3>除外語</h3>
+            <p>対象外分野、採用、補助金だけ、研究だけなど、ノイズになりやすい語を分けます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Decision</p>
+            <h3>判断語</h3>
+            <p>提案、導入、実証、PoC、運用、保守など、案件ステージを示す語を見ます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Weekly review</p>
+          <h2>週次レビューに残す内容</h2>
+        </div>
+        <div class="template-table" aria-label="RFP keyword design fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example</div>
+          <div>Review question</div>
+          <div>Related kit</div>
+          <div>keyword</div>
+          <div>監視する語句。</div>
+          <div>生成AI 業務効率化</div>
+          <div>提案可能な業務に近いか。</div>
+          <div>RFP Radar Setup Kit</div>
+          <div>source_type</div>
+          <div>どの公開情報源で確認するか。</div>
+          <div>自治体公告ページ</div>
+          <div>利用条件に反しないか。</div>
+          <div>RFP Radar Setup Kit</div>
+          <div>exclude_word</div>
+          <div>除外する語。</div>
+          <div>採用</div>
+          <div>ノイズを減らせるか。</div>
+          <div>RFP Radar Setup Kit</div>
+          <div>next_action</div>
+          <div>見つかった後の処理。</div>
+          <div>調査継続</div>
+          <div>追跡、調査、提案準備、見送りのどれか。</div>
+          <div>RFP Radar Setup Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>監視設計の範囲</h2>
+        </div>
+        <p class="section-lead">
+          このガイドは公開情報の監視設計を整理する資料です。案件発見、提案成功、採択、
+          契約、売上、調達条件への適合を約束するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for RFP keyword monitoring design.</p>
+    </footer>
+  </body>
+</html>
