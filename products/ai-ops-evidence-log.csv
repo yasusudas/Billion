@@ -1,0 +1,5 @@
+evidence_id,date,workflow_id,review_event,evidence_type,safe_summary,decision,next_review,owner
+E-001,2026-06-01,AI-001,Initial workflow review,Checklist summary,Owner and approval point were reviewed without storing private logs,Revise fallback rule,2026-06-15,Operations lead
+E-002,2026-06-02,AI-002,Source boundary review,Source list,Only public source URLs and confidence notes were recorded,Keep active with monthly review,2026-07-01,Project lead
+E-003,2026-06-03,AI-003,Proposal language boundary review,Decision note,Unapproved pricing and contract language were marked as stop conditions,Pause until manager review rule is written,2026-06-10,Proposal lead
+E-004,2026-06-04,AI-004,Retention review,Operating note,Action extraction output and owner confirmation process were documented,Keep active with retention rule update,2026-06-20,Operations lead

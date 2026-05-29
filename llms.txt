@@ -2,6 +2,8 @@
 
 Billion AI Operations Studio sells self-serve digital business kits and remote B2B professional services for AI operations diagnostics, RFP and proposal monitoring setup, and reception AI pilot planning.
 
+The current self-serve kit delivery files include operating guides, CSV templates, Markdown briefs, workflow inventory, evidence logging, opportunity scoring, dry-run scripts, operator review logs, and a 30-day rollout plan.
+
 Public business site:
 
 - https://billionai.vercel.app/

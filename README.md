@@ -29,10 +29,10 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 
 ## Self-serve products
 
-- `AI Ops Diagnostic Kit`: JPY 9,800
-- `RFP Radar Setup Kit`: JPY 7,800
-- `Reception AI Pilot Kit`: JPY 6,800
-- `AI Operations Starter Bundle`: JPY 19,800
+- `AI Ops Diagnostic Kit`: JPY 9,800. Includes operating guide, control matrix, risk checklist, 10-day plan, workflow inventory, and evidence log.
+- `RFP Radar Setup Kit`: JPY 7,800. Includes operating guide, source map, keyword tracker, weekly review, opportunity scorecard, and weekly brief template.
+- `Reception AI Pilot Kit`: JPY 6,800. Includes operating guide, inquiry map, fallback rules, acceptance checklist, dry-run script, and operator review log.
+- `AI Operations Starter Bundle`: JPY 19,800. Includes all three kits plus a 30-day rollout plan.
 
 ## Checkout activation
 
@@ -115,5 +115,5 @@ The public storefront does not link directly to delivery downloads. Static succe
 - Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
 - No payment collection without hosted checkout activation
 - Commercial disclosure page prepared; legal seller details and support route still require account-owner confirmation before live checkout
-- Actual Markdown and CSV product files prepared for post-checkout delivery
+- Actual Markdown and CSV product files prepared for post-checkout delivery, including expanded workflow inventory, evidence log, opportunity scorecard, weekly brief, dry-run, review log, and 30-day rollout assets
 - Services, prices, delivery method, refund policy, cancellation policy, restrictions, privacy, and support route are visible on the page
