@@ -1,0 +1,11 @@
+day,activity,output,owner
+1,Inventory AI workflows,Workflow list,Ops lead
+2,Classify data boundaries,Data class notes,Security owner
+3,Map tool access,Permission map,IT owner
+4,Define approval points,Approval workflow,Workflow owners
+5,Write fallback paths,Fallback checklist,Ops lead
+6,Run risk checklist,Gap list,Security owner
+7,Prioritize fixes,Action backlog,Project lead
+8,Draft operating rules,Operating note,Ops lead
+9,Review with stakeholders,Decision log,Project lead
+10,Approve rollout or pause,Go/no-go note,Executive owner
