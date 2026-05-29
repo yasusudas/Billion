@@ -53,8 +53,8 @@
         <ol class="process-list">
           <li><strong>Buyer reviews public pages:</strong> Product details, FAQ, samples, comparison, and policies can be read without a form.</li>
           <li><strong>Hosted checkout opens:</strong> A payment-provider hosted checkout link is used after account-owner activation.</li>
-          <li><strong>Successful checkout redirects:</strong> The provider redirects the buyer to the matching kit delivery page.</li>
-          <li><strong>Buyer downloads files:</strong> The buyer uses the delivered templates internally under the stated boundaries.</li>
+          <li><strong>Successful checkout redirects:</strong> The provider redirects the buyer to the matching kit delivery page or a dedicated delivery service.</li>
+          <li><strong>Buyer downloads files:</strong> The buyer uses the delivered templates internally under the stated boundaries after fulfillment is active.</li>
         </ol>
       </section>
 
@@ -65,8 +65,9 @@
         </div>
         <div class="notice-panel">
           <p>
-            Delivery pages and product files are prepared for hosted-checkout success redirects and
-            are marked noindex through metadata and response headers. Static success URLs are not
+            Delivery pages are prepared as hosted-checkout success manifests and are marked noindex
+            through metadata and response headers. Full paid files should not be published in this
+            public verification repository while checkout is pending. Static success URLs are not
             strong authentication. If stronger access control is required, use a dedicated delivery
             service after hosted checkout is active.
           </p>
@@ -84,7 +85,7 @@
           <h2>Checkout is not active yet</h2>
         </div>
         <p class="section-lead">
-          The storefront and delivery structure are ready, but hosted checkout links are not yet
+          The storefront and delivery manifests are ready, but hosted checkout links are not yet
           connected. Until the payment account owner completes setup, this site cannot collect
           payment and does not confirm any order, invoice, contract, or payment.
         </p>
