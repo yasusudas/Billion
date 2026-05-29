@@ -15,6 +15,7 @@
     />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#f6f7f2" />
+    <link rel="canonical" href="https://billionai.vercel.app/" />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -25,10 +26,11 @@
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="#store">Store</a>
-        <a href="#delivery">Delivery</a>
+        <a href="#products">Products</a>
         <a href="#services">Services</a>
         <a href="#pricing">Pricing</a>
         <a href="#policies">Policies</a>
+        <a href="/legal/commercial-disclosure.html">Disclosure</a>
       </nav>
     </header>
 
@@ -49,10 +51,22 @@
         </div>
         <aside class="service-visual" aria-label="Service delivery overview">
           <div class="visual-panel">
-            <div class="visual-row strong"><span>1</span><p>Choose a kit</p></div>
-            <div class="visual-row"><span>2</span><p>Hosted checkout</p></div>
-            <div class="visual-row"><span>3</span><p>Instant delivery page</p></div>
-            <div class="visual-row accent"><span>4</span><p>Use templates internally</p></div>
+            <div class="visual-row strong">
+              <span>1</span>
+              <p>Choose a kit</p>
+            </div>
+            <div class="visual-row">
+              <span>2</span>
+              <p>Hosted checkout</p>
+            </div>
+            <div class="visual-row">
+              <span>3</span>
+              <p>Instant delivery page</p>
+            </div>
+            <div class="visual-row accent">
+              <span>4</span>
+              <p>Use templates internally</p>
+            </div>
           </div>
         </aside>
       </section>
@@ -75,8 +89,10 @@
             document analysis, and written deliverables.
           </p>
           <p>
-            We do not sell consumer financial products, investment advice, medical advice,
-            regulated legal advice, gambling products, employment decisions, or physical goods.
+            Services are delivered remotely through workshops, document review, operational
+            analysis, and written deliverables. We do not sell consumer financial products,
+            investment advice, medical advice, regulated legal advice, gambling products, or
+            physical goods.
           </p>
         </div>
       </section>
@@ -86,34 +102,101 @@
           <p class="eyebrow">Self-serve store</p>
           <h2>No-touch digital products</h2>
         </div>
-        <div class="offer-grid">
-          <article class="offer-card">
+        <p class="section-lead">
+          These products are designed for purchase without a meeting, sales email, or manual
+          onboarding. Each payment button is intended to be a Stripe Payment Link that redirects to
+          the matching delivery page after successful checkout.
+        </p>
+        <div class="product-grid">
+          <article class="product-card">
             <p class="offer-label">AI operations</p>
             <h3>AI Ops Diagnostic Kit</h3>
-            <p>Templates for reviewing LLM workflows, permissions, approval points, incident triggers, and rollout risks.</p>
-            <p><strong>JPY 9,800</strong></p>
-            <a class="button primary" href="#checkout">Checkout pending</a>
+            <p>
+              A template pack for reviewing LLM workflows, permissions, human approval points,
+              incident triggers, and rollout risks.
+            </p>
+            <ul>
+              <li>Control matrix template</li>
+              <li>Risk review checklist</li>
+              <li>10-business-day diagnostic plan</li>
+            </ul>
+            <strong class="price">JPY 9,800</strong>
+            <a class="button primary disabled-link" href="#checkout-activation-required">Payments not yet enabled</a>
           </article>
-          <article class="offer-card">
+          <article class="product-card">
             <p class="offer-label">Proposal monitoring</p>
             <h3>RFP Radar Setup Kit</h3>
-            <p>A public-information workflow kit for monitoring procurement notices, proposal themes, keywords, and weekly reviews.</p>
-            <p><strong>JPY 7,800</strong></p>
-            <a class="button primary" href="#checkout">Checkout pending</a>
+            <p>
+              A public-information workflow kit for monitoring procurement notices, proposal
+              themes, keywords, and weekly opportunity reviews.
+            </p>
+            <ul>
+              <li>Source map worksheet</li>
+              <li>Keyword and agency tracker</li>
+              <li>Weekly review template</li>
+            </ul>
+            <strong class="price">JPY 7,800</strong>
+            <a class="button primary disabled-link" href="#checkout-activation-required">Payments not yet enabled</a>
           </article>
-          <article class="offer-card">
+          <article class="product-card">
             <p class="offer-label">Reception pilot</p>
             <h3>Reception AI Pilot Kit</h3>
-            <p>A front-office AI planning kit for missed calls, inquiry routing, fallback rules, and acceptance checks.</p>
-            <p><strong>JPY 6,800</strong></p>
-            <a class="button primary" href="#checkout">Checkout pending</a>
+            <p>
+              A front-office AI planning kit for missed calls, inquiry routing, fallback rules,
+              and acceptance checks.
+            </p>
+            <ul>
+              <li>Inquiry classification sheet</li>
+              <li>Fallback rule checklist</li>
+              <li>Pilot acceptance criteria</li>
+            </ul>
+            <strong class="price">JPY 6,800</strong>
+            <a class="button primary disabled-link" href="#checkout-activation-required">Payments not yet enabled</a>
           </article>
-          <article class="offer-card">
+          <article class="product-card featured">
             <p class="offer-label">Bundle</p>
             <h3>AI Operations Starter Bundle</h3>
-            <p>All three self-serve kits for teams that want an internal operating baseline before custom support.</p>
-            <p><strong>JPY 19,800</strong></p>
-            <a class="button primary" href="#checkout">Checkout pending</a>
+            <p>
+              All three self-serve kits for teams that want an internal operating baseline before
+              commissioning custom implementation support.
+            </p>
+            <ul>
+              <li>AI Ops Diagnostic Kit</li>
+              <li>RFP Radar Setup Kit</li>
+              <li>Reception AI Pilot Kit</li>
+            </ul>
+            <strong class="price">JPY 19,800</strong>
+            <a class="button primary disabled-link" href="#checkout-activation-required">Payments not yet enabled</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band" id="products">
+        <div class="section-heading">
+          <p class="eyebrow">What buyers receive</p>
+          <h2>Product files prepared for instant delivery</h2>
+        </div>
+        <p class="section-lead">
+          Each kit includes editable worksheets and operating instructions that a buyer can use
+          internally without a meeting. The delivery pages link to the exact files after hosted
+          checkout is connected.
+        </p>
+        <div class="asset-grid">
+          <article class="asset-card">
+            <strong>AI Ops Diagnostic Kit</strong>
+            <span>Operating guide, control matrix CSV, risk checklist CSV, 10-day plan CSV</span>
+          </article>
+          <article class="asset-card">
+            <strong>RFP Radar Setup Kit</strong>
+            <span>Operating guide, source map CSV, keyword tracker CSV, weekly review CSV</span>
+          </article>
+          <article class="asset-card">
+            <strong>Reception AI Pilot Kit</strong>
+            <span>Operating guide, inquiry map CSV, fallback rules CSV, acceptance checklist CSV</span>
+          </article>
+          <article class="asset-card">
+            <strong>AI Operations Starter Bundle</strong>
+            <span>Bundle guide that combines all three kits into a 30-day rollout sequence</span>
           </article>
         </div>
       </section>
@@ -123,65 +206,239 @@
           <p class="eyebrow">Automated fulfillment</p>
           <h2>Delivery pages are ready</h2>
         </div>
-        <div class="offer-grid">
-          <article class="offer-card"><h3>AI Ops Diagnostic Kit delivery</h3><p>Template overview and sample pack contents.</p><a href="/delivery/ai-ops-diagnostic-kit.html">Open delivery page</a></article>
-          <article class="offer-card"><h3>RFP Radar Setup Kit delivery</h3><p>Monitoring workflow and review templates.</p><a href="/delivery/rfp-radar-setup-kit.html">Open delivery page</a></article>
-          <article class="offer-card"><h3>Reception AI Pilot Kit delivery</h3><p>Pilot scope, fallback rules, and checklist.</p><a href="/delivery/reception-ai-pilot-kit.html">Open delivery page</a></article>
-          <article class="offer-card"><h3>Starter Bundle delivery</h3><p>All self-serve kit materials in one bundle.</p><a href="/delivery/ai-operations-starter-bundle.html">Open delivery page</a></article>
+        <div class="delivery-grid">
+          <article class="delivery-card">
+            <strong>AI Ops Diagnostic Kit success route</strong>
+            <span>Prepared for a Stripe Payment Link success URL after checkout is active.</span>
+          </article>
+          <article class="delivery-card">
+            <strong>RFP Radar Setup Kit success route</strong>
+            <span>Prepared for a Stripe Payment Link success URL after checkout is active.</span>
+          </article>
+          <article class="delivery-card">
+            <strong>Reception AI Pilot Kit success route</strong>
+            <span>Prepared for a Stripe Payment Link success URL after checkout is active.</span>
+          </article>
+          <article class="delivery-card">
+            <strong>Starter Bundle success route</strong>
+            <span>Prepared for a Stripe Payment Link success URL after checkout is active.</span>
+          </article>
         </div>
         <p class="fine-print">
-          In production, each Stripe Payment Link should redirect to the matching delivery URL after successful checkout. This site has no form, password field, card field, tracking script, or customer database.
+          In production, each Stripe Payment Link should redirect to the matching delivery URL
+          after successful checkout. Delivery pages and product files are marked noindex through
+          metadata and response headers and are not linked as public product downloads from this
+          storefront. Static success URLs are not authentication; use hosted checkout or a dedicated
+          delivery service if stronger access control is required. The site does not collect form
+          data, passwords, card data, or customer records.
         </p>
       </section>
 
       <section class="section" id="services">
         <div class="section-heading">
           <p class="eyebrow">Services</p>
-          <h2>Custom offerings</h2>
+          <h2>Core offerings</h2>
         </div>
         <div class="offer-grid">
-          <article class="offer-card"><p class="offer-label">Primary service</p><h3>AI Operations Diagnostic</h3><p>A paid diagnostic for teams using AI agents, LLM workflows, or automation in internal operations.</p></article>
-          <article class="offer-card"><p class="offer-label">Setup service</p><h3>RFP and Proposal Radar Setup</h3><p>A workflow setup service for monitoring public procurement, proposal opportunities, and buying signals.</p></article>
-          <article class="offer-card"><p class="offer-label">Pilot planning</p><h3>Reception AI Pilot Blueprint</h3><p>A discovery and planning service for reception, inquiry handling, and front-office AI pilots.</p></article>
+          <article class="offer-card">
+            <p class="offer-label">Primary service</p>
+            <h3>AI Operations Diagnostic</h3>
+            <p>
+              A paid diagnostic for teams using AI agents, LLM workflows, or automation in
+              internal operations. The output includes an operating-risk summary, control matrix,
+              incident-prevention checklist, and 90-day action plan.
+            </p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Setup service</p>
+            <h3>RFP and Proposal Radar Setup</h3>
+            <p>
+              A workflow setup service that helps teams monitor public procurement, proposal
+              opportunities, and account-specific buying signals using clear, auditable operating
+              steps.
+            </p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Pilot planning</p>
+            <h3>Reception AI Pilot Blueprint</h3>
+            <p>
+              A discovery and planning service for reception, inquiry handling, and front-office
+              AI pilots. The output defines scope, risks, fallback paths, and pilot acceptance
+              criteria.
+            </p>
+          </article>
         </div>
       </section>
 
       <section class="section band" id="pricing">
-        <div class="section-heading"><p class="eyebrow">Pricing and delivery</p><h2>Standard terms</h2></div>
-        <div class="pricing-table" role="table" aria-label="Standard pricing">
-          <div class="table-row table-head" role="row"><div role="columnheader">Product or service</div><div role="columnheader">Price</div><div role="columnheader">Delivery</div><div role="columnheader">Deliverables</div></div>
-          <div class="table-row" role="row"><div role="cell">AI Ops Diagnostic Kit</div><div role="cell">JPY 9,800</div><div role="cell">Instant after checkout</div><div role="cell">Templates, checklists, diagnostic workflow</div></div>
-          <div class="table-row" role="row"><div role="cell">RFP Radar Setup Kit</div><div role="cell">JPY 7,800</div><div role="cell">Instant after checkout</div><div role="cell">Source map, keyword tracker, weekly review</div></div>
-          <div class="table-row" role="row"><div role="cell">Reception AI Pilot Kit</div><div role="cell">JPY 6,800</div><div role="cell">Instant after checkout</div><div role="cell">Pilot templates, fallback rules, acceptance checks</div></div>
-          <div class="table-row" role="row"><div role="cell">AI Operations Starter Bundle</div><div role="cell">JPY 19,800</div><div role="cell">Instant after checkout</div><div role="cell">All three self-serve kits</div></div>
-          <div class="table-row" role="row"><div role="cell">AI Operations Diagnostic</div><div role="cell">JPY 1,200,000 excl. tax</div><div role="cell">10 business days</div><div role="cell">Diagnostic report, control matrix, action plan</div></div>
+        <div class="section-heading">
+          <p class="eyebrow">Pricing and delivery</p>
+          <h2>Standard service terms</h2>
         </div>
+        <div class="pricing-table" role="table" aria-label="Standard service pricing">
+          <div class="table-row table-head" role="row">
+            <div role="columnheader">Service</div>
+            <div role="columnheader">Starting price</div>
+            <div role="columnheader">Typical delivery</div>
+            <div role="columnheader">Deliverables</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">AI Ops Diagnostic Kit</div>
+            <div role="cell">JPY 9,800 tax included</div>
+            <div role="cell">Instant digital delivery after checkout</div>
+            <div role="cell">Templates, checklists, diagnostic workflow</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">RFP Radar Setup Kit</div>
+            <div role="cell">JPY 7,800 tax included</div>
+            <div role="cell">Instant digital delivery after checkout</div>
+            <div role="cell">Source map, keyword tracker, review workflow</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Reception AI Pilot Kit</div>
+            <div role="cell">JPY 6,800 tax included</div>
+            <div role="cell">Instant digital delivery after checkout</div>
+            <div role="cell">Pilot templates, fallback rules, acceptance checks</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">AI Operations Starter Bundle</div>
+            <div role="cell">JPY 19,800 tax included</div>
+            <div role="cell">Instant digital delivery after checkout</div>
+            <div role="cell">All three self-serve kits</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">AI Operations Diagnostic</div>
+            <div role="cell">JPY 1,200,000 excl. tax</div>
+            <div role="cell">10 business days</div>
+            <div role="cell">Diagnostic report, control matrix, action plan</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">RFP and Proposal Radar Setup</div>
+            <div role="cell">JPY 800,000 excl. tax</div>
+            <div role="cell">10 business days</div>
+            <div role="cell">Monitoring workflow, source map, weekly report template</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Reception AI Pilot Blueprint</div>
+            <div role="cell">JPY 900,000 excl. tax</div>
+            <div role="cell">10 business days</div>
+            <div role="cell">Pilot scope, fallback design, acceptance checklist</div>
+          </div>
+        </div>
+        <p class="fine-print">
+          Self-serve kit prices are fixed on this page. Custom professional-service pricing, tax
+          treatment, payment due date, and scope are confirmed in a written quotation before work
+          begins. Payments are accepted by hosted checkout, bank transfer, or invoice-based online
+          payment when available.
+        </p>
       </section>
 
-      <section class="section" id="checkout">
-        <div class="section-heading"><p class="eyebrow">Checkout status</p><h2>Payment link activation required</h2></div>
-        <div class="contact-panel">
+      <section class="section" id="checkout-activation-required">
+        <div class="section-heading">
+          <p class="eyebrow">Checkout status</p>
+          <h2>Payment link activation required</h2>
+        </div>
+        <div class="notice-panel">
           <p>
-            The self-serve sales page, product prices, fulfillment pages, refund terms, and delivery flow are prepared. A hosted payment processor must be connected before money can be collected. Until hosted checkout links are active, this public site does not collect payment and does not represent that an order, invoice, contract, or payment has occurred.
+            The self-serve sales page, product prices, fulfillment pages, refund terms, and
+            delivery flow are prepared. A hosted payment processor must be connected before money
+            can be collected. That requires the account owner to complete payout, identity, tax,
+            and legal-display requirements in the payment provider.
+          </p>
+          <p>
+            Until hosted checkout links are active, this public site does not collect payment and
+            does not represent that an order, invoice, contract, or payment has occurred.
           </p>
         </div>
       </section>
 
+      <section class="section" id="process">
+        <div class="section-heading">
+          <p class="eyebrow">How work is delivered</p>
+          <h2>Engagement process</h2>
+        </div>
+        <ol class="process-list">
+          <li>
+            <strong>Discovery:</strong> We confirm the business objective, workflow, available
+            documents, and constraints.
+          </li>
+          <li>
+            <strong>Quotation:</strong> We provide a written scope, price, schedule, and acceptance
+            criteria.
+          </li>
+          <li>
+            <strong>Delivery:</strong> Work is performed remotely through review sessions,
+            analysis, and written deliverables.
+          </li>
+          <li>
+            <strong>Acceptance:</strong> The client reviews the deliverables against the agreed
+            scope and requests corrections for in-scope defects if needed.
+          </li>
+        </ol>
+      </section>
+
       <section class="section band" id="policies">
-        <div class="section-heading"><p class="eyebrow">Policies</p><h2>Refund, cancellation, and restrictions</h2></div>
+        <div class="section-heading">
+          <p class="eyebrow">Policies</p>
+          <h2>Refund, cancellation, and restrictions</h2>
+        </div>
         <div class="policy-grid">
-          <article><h3>Refund policy</h3><p>Self-serve digital kits are downloadable products. Refunds may be considered for duplicate purchases, failed delivery, or clear file defects reported through the payment receipt support route. Custom engagements follow the written quotation.</p></article>
-          <article><h3>Cancellation policy</h3><p>Self-serve kit purchases are fulfilled immediately after checkout and cannot be cancelled after successful delivery except where required by law or separately agreed. Custom services may be cancelled under the written quotation.</p></article>
-          <article><h3>Service restrictions</h3><p>We do not provide regulated financial advice, legal representation, medical diagnosis, consumer lending, gambling, physical goods, or employment decisions.</p></article>
-          <article><h3>Privacy</h3><p>The public site has no forms and does not request personal documents, customer logs, recordings, payment details, or passwords. Hosted checkout, when enabled, is handled by the payment processor.</p></article>
+          <article>
+            <h3>Refund policy</h3>
+            <p>
+              Self-serve digital kits are downloadable products. Refunds may be considered for
+              duplicate purchases, failed delivery, or clear file defects reported through the
+              payment receipt support route. Custom engagements follow the written quotation.
+            </p>
+          </article>
+          <article>
+            <h3>Cancellation policy</h3>
+            <p>
+              Self-serve kit purchases are fulfilled immediately after checkout and cannot be
+              cancelled after successful delivery except where required by law or separately agreed.
+              Custom services may be cancelled under the written quotation.
+            </p>
+          </article>
+          <article>
+            <h3>Service restrictions</h3>
+            <p>
+              We do not provide regulated financial advice, legal representation, medical
+              diagnosis, consumer lending, gambling, physical goods, or employment decisions.
+              Services are advisory and operational in nature.
+            </p>
+          </article>
+          <article>
+            <h3>Privacy</h3>
+            <p>
+              The public site has no forms and does not request personal documents, customer logs,
+              recordings, payment details, or passwords. Hosted checkout, when enabled, is handled
+              by the payment processor.
+            </p>
+          </article>
+          <article>
+            <h3>Commercial disclosure</h3>
+            <p>
+              Seller, payment, delivery, cancellation, and support disclosures are maintained on
+              the commercial disclosure page. Checkout must not be activated until account-owner
+              legal details are confirmed.
+            </p>
+            <p><a href="/legal/commercial-disclosure.html">Open commercial disclosure</a></p>
+          </article>
         </div>
       </section>
 
       <section class="section contact-section" id="support">
-        <div class="section-heading"><p class="eyebrow">Support model</p><h2>No manual sales contact required</h2></div>
+        <div class="section-heading">
+          <p class="eyebrow">Support model</p>
+          <h2>No manual sales contact required</h2>
+        </div>
         <div class="contact-panel">
-          <p>Self-serve products are designed to be purchased and delivered without a sales meeting, outreach message, or manual onboarding. Custom services remain available only after a written quotation is prepared.</p>
-          <a class="button secondary" href="#delivery">Review delivery pages</a>
+          <p>
+            Self-serve products are designed to be purchased and delivered without a sales meeting,
+            outreach message, or manual onboarding. Custom services remain available only after a
+            written quotation is prepared.
+          </p>
+          <a class="button secondary" href="/legal/commercial-disclosure.html">Review disclosure</a>
         </div>
       </section>
     </main>
@@ -189,6 +446,7 @@
     <footer class="site-footer">
       <p>Billion AI Operations Studio</p>
       <p>Self-serve digital kits and remote B2B AI operations services. Hosted checkout is required before payments can be collected.</p>
+      <p><a href="/legal/commercial-disclosure.html">Commercial disclosure</a></p>
     </footer>
   </body>
 </html>
