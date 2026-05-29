@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI業務棚卸しテンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="生成AIやLLMを使う業務を、担当者、入力データ、外部影響、承認点、停止条件で棚卸しするAI業務棚卸しテンプレートの公開プレビュー。"
+    />
+    <meta property="og:title" content="AI業務棚卸しテンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AI業務を担当者、入力データ、外部影響、承認点、停止条件で整理するテンプレートプレビュー。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/templates/ai-ops-workflow-inventory.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/templates/ai-ops-workflow-inventory.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Template navigation">
+        <a href="/">Store</a>
+        <a href="/#templates">Templates</a>
+        <a href="/templates/ai-ops-control-matrix.html">Control matrix</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Template preview</p>
+          <h1>AI業務棚卸しテンプレート</h1>
+          <p class="lead">
+            AIを使っている業務、使おうとしている業務、AIエージェント化したい業務を一覧化し、
+            リスク確認と承認設計へ進めるためのテンプレート構成です。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/resources/ai-risk-register-template.html">Read AI risk register</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Use when</p>
+          <h2>このテンプレートが必要な状態</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Scattered use</p>
+            <h3>AI利用が点在している</h3>
+            <p>部署ごとにChatGPT、LLM、AIツールの使い方が違い、管理表がない状態。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Unclear owner</p>
+            <h3>責任者が曖昧</h3>
+            <p>誰が入力、確認、承認、停止判断をするのかが業務ごとに決まっていない状態。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">External impact</p>
+            <h3>外部影響が混ざる</h3>
+            <p>顧客送信、公開、契約、請求、削除など、外部影響の前に確認したい状態。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Preview fields</p>
+          <h2>棚卸し表の列例</h2>
+        </div>
+        <div class="template-table" aria-label="AI workflow inventory fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example</div>
+          <div>Review point</div>
+          <div>Included in</div>
+          <div>workflow_name</div>
+          <div>AIを使う業務名。</div>
+          <div>問い合わせ分類、議事録要約、RFP確認。</div>
+          <div>1業務1行になっているか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>input_data_class</div>
+          <div>入力するデータ分類。</div>
+          <div>公開情報、社内一般、顧客情報。</div>
+          <div>禁止入力が混ざらないか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>external_effect</div>
+          <div>外部へ影響する操作。</div>
+          <div>顧客送信、公開、請求前確認。</div>
+          <div>人間確認前に止まるか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>approval_owner</div>
+          <div>承認者。</div>
+          <div>業務責任者、管理者、レビュー担当。</div>
+          <div>名前ではなく役割で管理できるか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Paid kit fit</p>
+          <h2>AI Ops Diagnostic Kitとの関係</h2>
+        </div>
+        <p class="section-lead">
+          有料キットでは、この棚卸し表を統制マトリクス、リスクチェックリスト、証跡ログ、
+          10日計画へ接続します。この公開ページは構造のプレビューであり、完全な納品ファイルは含みません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Template preview for AI workflow inventory.</p>
+    </footer>
+  </body>
+</html>

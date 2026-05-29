@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>受付AI検収チェックリスト | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="受付AIや問い合わせ対応AIのパイロットで、許可応答、禁止応答、有人切替、テスト結果、運用記録を確認する検収チェックリスト。"
+    />
+    <meta property="og:title" content="受付AI検収チェックリスト | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="受付AIパイロットの許可応答、禁止応答、有人切替、テスト結果、運用記録を確認するチェックリスト。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/templates/reception-ai-acceptance-checklist.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/templates/reception-ai-acceptance-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Template navigation">
+        <a href="/">Store</a>
+        <a href="/#templates">Templates</a>
+        <a href="/resources/reception-ai-test-script-template.html">Test script</a>
+        <a href="/kits/reception-ai-pilot-kit.html">Reception Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Template preview</p>
+          <h1>受付AI検収チェックリスト</h1>
+          <p class="lead">
+            受付AIや問い合わせ対応AIのパイロットを評価する前に、AIが答えてよい範囲、
+            人間へ戻す条件、禁止応答、テスト結果、運用記録を確認するためのチェックリストです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/reception-ai-pilot-kit.html">View Reception AI Pilot Kit</a>
+            <a class="button secondary" href="/templates/reception-fallback-rules.html">Preview fallback rules</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Acceptance areas</p>
+          <h2>検収前に確認する範囲</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Allowed</p>
+            <h3>許可応答</h3>
+            <p>営業時間、予約方法、一般案内など、AIが返してよい回答が限定されているか。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Blocked</p>
+            <h3>禁止応答</h3>
+            <p>返金、契約、請求、個別条件、法務、医療、金融などをAIが判断しないか。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Fallback</p>
+            <h3>有人切替</h3>
+            <p>苦情、例外、根拠不足、曖昧な問い合わせを人間へ戻せるか。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Evidence</p>
+            <h3>運用記録</h3>
+            <p>テスト入力、AI応答、判定、修正理由、再テスト結果が残るか。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Checklist fields</p>
+          <h2>検収チェックの列例</h2>
+        </div>
+        <div class="template-table" aria-label="Reception AI acceptance checklist fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example</div>
+          <div>Review point</div>
+          <div>Included in</div>
+          <div>acceptance_item</div>
+          <div>検収項目。</div>
+          <div>返金依頼は有人切替になる。</div>
+          <div>テストで確認したか。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>test_result</div>
+          <div>dry-run結果。</div>
+          <div>Pass / Fail / Needs change</div>
+          <div>再テストが必要か。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>evidence_link</div>
+          <div>確認根拠。</div>
+          <div>Test case ID or review note</div>
+          <div>後から追えるか。</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>release_decision</div>
+          <div>パイロット判断。</div>
+          <div>Continue pilot / revise / stop</div>
+          <div>停止条件に合うか。</div>
+          <div>Reception AI Pilot Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>検収合格や運用品質を保証しません</h2>
+        </div>
+        <p class="section-lead">
+          このページはパイロット検収の整理用です。顧客対応品質、問い合わせ削減、
+          事故防止、法令適合、AI応答品質を保証するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Template preview for reception AI acceptance planning.</p>
+    </footer>
+  </body>
+</html>
