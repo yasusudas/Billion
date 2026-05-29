@@ -42,6 +42,9 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `compare.html`
 - `samples.html`
 - `delivery-access.html`
+- `buyers/ai-operations-manager.html`
+- `buyers/proposal-manager.html`
+- `buyers/front-office-manager.html`
 - `templates/ai-ops-control-matrix.html`
 - `templates/ai-ops-risk-checklist.html`
 - `templates/rfp-keyword-tracker.html`
@@ -86,6 +89,7 @@ The public storefront does not link directly to delivery downloads. Static succe
 - No client-side JavaScript
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
+- Public buyer role pages for no-call purchase decisions
 - Public template preview pages for organic discovery without exposing delivery files
 - Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
 - No payment collection without hosted checkout activation
