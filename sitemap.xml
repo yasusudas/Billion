@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://billionai.vercel.app/</loc><lastmod>2026-05-29</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://billionai.vercel.app/</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://billionai.vercel.app/legal/commercial-disclosure.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/legal/business-information.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/legal/terms-of-sale.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
@@ -10,7 +10,7 @@
   <url><loc>https://billionai.vercel.app/no-contact-operation.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/autopilot-commerce.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/autonomous-revenue-readiness.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://billionai.vercel.app/how-it-works.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://billionai.vercel.app/how-it-works.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/receipt-support.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/support.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/faq.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -43,6 +43,9 @@
   <url><loc>https://billionai.vercel.app/resources/generative-ai-approval-request-template.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/resources/ai-risk-register-template.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/resources/ai-roi-readiness-calculator.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://billionai.vercel.app/resources/ai-team-rollout-roadmap-template.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://billionai.vercel.app/resources/department-ai-adoption-calendar-template.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://billionai.vercel.app/resources/ai-manager-briefing-template.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/resources/rfp-go-no-go-checklist.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/resources/rfp-response-readiness-scorecard.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://billionai.vercel.app/resources/reception-ai-test-script-template.html</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
