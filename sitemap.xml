@@ -43,6 +43,24 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://billionai.vercel.app/buyers/ai-operations-manager.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/buyers/proposal-manager.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/buyers/front-office-manager.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://billionai.vercel.app/templates/ai-ops-control-matrix.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
