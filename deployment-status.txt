@@ -7,3 +7,5 @@ Hosted checkout: not connected
 Orders/contracts/invoices/payments: no confirmed facts
 Revenue: JPY 0
 Manual outreach/contact routes: not used
+Manual posting/sales calls/custom quote conversations: not used
+No-contact operation page: /no-contact-operation.html
