@@ -2,7 +2,7 @@
 
 Stripe business verification, Vercel-ready public website, and self-serve digital product storefront for `Billion AI Operations Studio`.
 
-Preferred GitHub repository for Vercel import: `yasusudas/Bilion`.
+Preferred GitHub repository for Vercel import: `yasusudas/Billion`.
 
 ## Recommended Stripe fields
 
@@ -41,6 +41,13 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `faq.html`
 - `compare.html`
 - `samples.html`
+- `delivery-access.html`
+- `templates/ai-ops-control-matrix.html`
+- `templates/ai-ops-risk-checklist.html`
+- `templates/rfp-keyword-tracker.html`
+- `templates/rfp-source-map.html`
+- `templates/reception-fallback-rules.html`
+- `templates/reception-inquiry-map.html`
 - `delivery/ai-ops-diagnostic-kit.html`
 - `delivery/rfp-radar-setup-kit.html`
 - `delivery/reception-ai-pilot-kit.html`
@@ -52,7 +59,11 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `guides/ai-operations-risk-checklist.html`
 - `guides/rfp-radar-workflow.html`
 - `guides/reception-ai-pilot-plan.html`
+- `use-cases/ai-ops-governance.html`
+- `use-cases/rfp-monitoring-workflow.html`
+- `use-cases/reception-ai-pilot.html`
 - `legal/commercial-disclosure.html`
+- `legal/privacy.html`
 - `products/*.md`
 - `products/*.csv`
 - `sitemap.xml`
@@ -75,6 +86,8 @@ The public storefront does not link directly to delivery downloads. Static succe
 - No client-side JavaScript
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
+- Public template preview pages for organic discovery without exposing delivery files
+- Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
 - No payment collection without hosted checkout activation
 - Commercial disclosure page prepared; legal seller details and support route still require account-owner confirmation before live checkout
 - Actual Markdown and CSV product files prepared for post-checkout delivery
