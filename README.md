@@ -62,10 +62,14 @@ generated HTML only after account-owner activation and validation.
 - `support.html`
 - `delivery-access.html`
 - `resources/llm-operations-checklist.html`
+- `resources/llm-usage-policy-template.html`
 - `resources/ai-agent-governance-template.html`
+- `resources/ai-agent-operation-checklist.html`
 - `resources/ai-agent-approval-workflow-template.html`
 - `resources/rfp-monitoring-template.html`
+- `resources/rfp-keyword-design-guide.html`
 - `resources/reception-ai-requirements.html`
+- `resources/reception-ai-prelaunch-checklist.html`
 - `resources/ai-agent-human-review-checklist.html`
 - `resources/ai-workflow-evidence-log-template.html`
 - `resources/rfp-opportunity-scorecard-template.html`
