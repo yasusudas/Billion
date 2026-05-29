@@ -59,6 +59,7 @@ generated HTML only after account-owner activation and validation.
 - `compare.html`
 - `samples.html`
 - `purchase-self-check.html`
+- `how-it-works.html`
 - `resources.html`
 - `no-contact-operation.html`
 - `receipt-support.html`
@@ -70,12 +71,16 @@ generated HTML only after account-owner activation and validation.
 - `resources/ai-agent-operation-checklist.html`
 - `resources/ai-agent-approval-workflow-template.html`
 - `resources/ai-operations-governance-checklist.html`
+- `resources/generative-ai-internal-use-request-template.html`
+- `resources/ai-workflow-inventory-template.html`
 - `resources/rfp-monitoring-template.html`
 - `resources/rfp-monitoring-excel-template.html`
+- `resources/rfp-monitoring-weekly-routine-template.html`
 - `resources/rfp-keyword-design-guide.html`
 - `resources/reception-ai-requirements.html`
 - `resources/reception-ai-prelaunch-checklist.html`
 - `resources/reception-ai-human-handoff-template.html`
+- `resources/reception-ai-human-handoff-checklist.html`
 - `resources/ai-agent-human-review-checklist.html`
 - `resources/ai-workflow-evidence-log-template.html`
 - `resources/rfp-opportunity-scorecard-template.html`
@@ -164,10 +169,12 @@ node scripts/verify-live-production.mjs --expect-checkout pending
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
 - Public purchase self-check page for no-contact kit selection
+- Public how-it-works page for no-contact purchase, hosted checkout, and digital delivery explanation
 - Public no-contact operation page for passive storefront, distribution, checkout, amount, and evidence boundaries
 - Public receipt support boundary page for duplicate purchase, failed delivery, and clear file defect review after hosted checkout activation
 - Public high-intent resource pages for AI approval requests, AI risk registers, RFP go/no-go decisions, and reception AI test scripts
 - Public resource library page and high-intent pages for AI governance checklists, RFP monitoring spreadsheets, and reception AI human handoff planning
+- Public high-intent pages for generative AI internal use requests, AI workflow inventory, RFP weekly review routines, and reception AI handoff checklists
 - Public support, terms of sale, business information, and commercial disclosure pages for verification and buyer confidence
 - Public Japanese resource pages for organic discovery around LLM operations, AI agent governance, RFP monitoring, and reception AI requirements
 - Additional public Japanese resource pages for AI agent human review, AI workflow evidence logs, RFP opportunity scoring, and reception AI fallback planning

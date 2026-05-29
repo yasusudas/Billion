@@ -14,6 +14,7 @@ Public business site:
 - https://billionai.vercel.app/resources.html
 - https://billionai.vercel.app/delivery-access.html
 - https://billionai.vercel.app/no-contact-operation.html
+- https://billionai.vercel.app/how-it-works.html
 - https://billionai.vercel.app/receipt-support.html
 - https://billionai.vercel.app/support.html
 - https://billionai.vercel.app/legal/commercial-disclosure.html
@@ -26,12 +27,16 @@ Public business site:
 - https://billionai.vercel.app/resources/ai-agent-operation-checklist.html
 - https://billionai.vercel.app/resources/ai-agent-approval-workflow-template.html
 - https://billionai.vercel.app/resources/ai-operations-governance-checklist.html
+- https://billionai.vercel.app/resources/generative-ai-internal-use-request-template.html
+- https://billionai.vercel.app/resources/ai-workflow-inventory-template.html
 - https://billionai.vercel.app/resources/rfp-monitoring-template.html
 - https://billionai.vercel.app/resources/rfp-monitoring-excel-template.html
+- https://billionai.vercel.app/resources/rfp-monitoring-weekly-routine-template.html
 - https://billionai.vercel.app/resources/rfp-keyword-design-guide.html
 - https://billionai.vercel.app/resources/reception-ai-requirements.html
 - https://billionai.vercel.app/resources/reception-ai-prelaunch-checklist.html
 - https://billionai.vercel.app/resources/reception-ai-human-handoff-template.html
+- https://billionai.vercel.app/resources/reception-ai-human-handoff-checklist.html
 - https://billionai.vercel.app/resources/ai-agent-human-review-checklist.html
 - https://billionai.vercel.app/resources/ai-workflow-evidence-log-template.html
 - https://billionai.vercel.app/resources/rfp-opportunity-scorecard-template.html
@@ -74,10 +79,12 @@ Important constraints:
 - Free guides are public planning content and do not include forms, tracking, or delivery-file links.
 - FAQ, comparison, and sample pages are public buyer-qualification content and do not expose full delivery files.
 - The purchase self-check page supports no-contact kit selection and does not collect buyer information.
+- The how-it-works page explains public discovery, self-selection, hosted checkout, and digital delivery without adding manual contact routes.
 - The no-contact operation page states that manual outreach, contact forms, sales calls, custom quote conversations, manual posting, and manual onboarding are excluded.
 - The receipt support page limits post-purchase review to provider receipt evidence for duplicate purchase, failed delivery, or clear file defects after checkout activation.
 - Public resource pages are indexable planning content for Japanese and English search intent, and do not expose paid delivery files.
 - The resource library page groups public planning resources by AI operations, RFP monitoring, and reception AI pilot intent without collecting buyer information.
+- Additional high-intent Japanese resource pages target generative AI internal use requests, AI workflow inventories, RFP weekly routines, and reception AI human handoff checklists.
 - Buyer role pages are no-call purchase guides and do not include forms, tracking, or manual contact paths.
 - Template preview pages describe fields and buyer fit, but do not expose full delivery files.
 - Use-case pages are product selection guides, not implementation advice or outcome guarantees.
