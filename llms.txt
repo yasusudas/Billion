@@ -12,6 +12,7 @@ Public business site:
 - https://billionai.vercel.app/samples.html
 - https://billionai.vercel.app/purchase-self-check.html
 - https://billionai.vercel.app/delivery-access.html
+- https://billionai.vercel.app/no-contact-operation.html
 - https://billionai.vercel.app/support.html
 - https://billionai.vercel.app/legal/commercial-disclosure.html
 - https://billionai.vercel.app/legal/business-information.html
@@ -59,6 +60,7 @@ Important constraints:
 - Free guides are public planning content and do not include forms, tracking, or delivery-file links.
 - FAQ, comparison, and sample pages are public buyer-qualification content and do not expose full delivery files.
 - The purchase self-check page supports no-contact kit selection and does not collect buyer information.
+- The no-contact operation page states that manual outreach, contact forms, sales calls, custom quote conversations, manual posting, and manual onboarding are excluded.
 - Public resource pages are indexable planning content for Japanese and English search intent, and do not expose paid delivery files.
 - Buyer role pages are no-call purchase guides and do not include forms, tracking, or manual contact paths.
 - Template preview pages describe fields and buyer fit, but do not expose full delivery files.
