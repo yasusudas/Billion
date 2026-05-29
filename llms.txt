@@ -5,13 +5,21 @@ Billion AI Operations Studio sells self-serve digital business kits and remote B
 Public business site:
 
 - https://billionai.vercel.app/
+- https://billionai.vercel.app/faq.html
+- https://billionai.vercel.app/compare.html
+- https://billionai.vercel.app/samples.html
 - https://billionai.vercel.app/kits/ai-ops-diagnostic-kit.html
 - https://billionai.vercel.app/kits/rfp-radar-setup-kit.html
 - https://billionai.vercel.app/kits/reception-ai-pilot-kit.html
 - https://billionai.vercel.app/kits/ai-operations-starter-bundle.html
+- https://billionai.vercel.app/guides/ai-operations-risk-checklist.html
+- https://billionai.vercel.app/guides/rfp-radar-workflow.html
+- https://billionai.vercel.app/guides/reception-ai-pilot-plan.html
 
 Important constraints:
 
 - Hosted checkout links must be activated by the payment account owner before payments can be collected.
 - The site does not collect form data, passwords, card data, customer logs, or private documents.
+- Free guides are public planning content and do not include forms, tracking, or delivery-file links.
+- FAQ, comparison, and sample pages are public buyer-qualification content and do not expose full delivery files.
 - Services do not include regulated financial advice, legal representation, medical diagnosis, lending, gambling, employment decisions, or physical goods.
