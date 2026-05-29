@@ -9,6 +9,12 @@ Public business site:
 - https://billionai.vercel.app/compare.html
 - https://billionai.vercel.app/samples.html
 - https://billionai.vercel.app/delivery-access.html
+- https://billionai.vercel.app/templates/ai-ops-control-matrix.html
+- https://billionai.vercel.app/templates/ai-ops-risk-checklist.html
+- https://billionai.vercel.app/templates/rfp-keyword-tracker.html
+- https://billionai.vercel.app/templates/rfp-source-map.html
+- https://billionai.vercel.app/templates/reception-fallback-rules.html
+- https://billionai.vercel.app/templates/reception-inquiry-map.html
 - https://billionai.vercel.app/kits/ai-ops-diagnostic-kit.html
 - https://billionai.vercel.app/kits/rfp-radar-setup-kit.html
 - https://billionai.vercel.app/kits/reception-ai-pilot-kit.html
@@ -27,5 +33,6 @@ Important constraints:
 - The public pages include no forms, client-side scripts, tracking code, custom checkout code, or upload fields.
 - Free guides are public planning content and do not include forms, tracking, or delivery-file links.
 - FAQ, comparison, and sample pages are public buyer-qualification content and do not expose full delivery files.
+- Template preview pages describe fields and buyer fit, but do not expose full delivery files.
 - Use-case pages are product selection guides, not implementation advice or outcome guarantees.
 - Services do not include regulated financial advice, legal representation, medical diagnosis, lending, gambling, employment decisions, or physical goods.
