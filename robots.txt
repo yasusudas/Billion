@@ -6,3 +6,4 @@ Disallow: /products/
 Disallow: /scripts/
 
 Sitemap: https://billionai.vercel.app/sitemap.xml
+Sitemap: https://billionai.vercel.app/sitemap-content-expansion.xml

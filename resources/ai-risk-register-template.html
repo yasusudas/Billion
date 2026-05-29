@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AIリスク台帳テンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="AI業務、LLM利用、AIエージェント運用のリスク、影響、発生条件、対策、承認点、停止条件を整理するAIリスク台帳テンプレート解説。"
+    />
+    <meta property="og:title" content="AIリスク台帳テンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AI業務のリスク、影響、対策、承認点、停止条件を台帳として管理する公開テンプレート解説。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/ai-risk-register-template.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/ai-risk-register-template.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/templates/ai-ops-risk-checklist.html">Risk checklist</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>AIリスク台帳テンプレート</h1>
+          <p class="lead">
+            生成AI、LLM、AIエージェントを業務で使うときに、リスク、影響、発生条件、
+            対策、承認点、停止条件を1行ずつ管理するための公開リソースです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/templates/ai-ops-control-matrix.html">Preview control matrix</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Register fields</p>
+          <h2>台帳に入れる列</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Risk</p>
+            <h3>リスク名</h3>
+            <p>誤回答、機密入力、根拠不明、権限過多、例外処理漏れなどを短く書きます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Impact</p>
+            <h3>影響範囲</h3>
+            <p>顧客、社内業務、契約、請求、公開情報、ブランドなど、影響先を分けます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Trigger</p>
+            <h3>発生条件</h3>
+            <p>どの入力、操作、例外、外部送信の前にリスクが起きるかを記録します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Control</p>
+            <h3>対策</h3>
+            <p>人間確認、禁止入力、権限制限、ログ記録、fallbackなどを具体的に書きます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Owner</p>
+            <h3>責任者</h3>
+            <p>リスクを見直す担当者、承認者、運用者を分けて記録します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Stop</p>
+            <h3>停止条件</h3>
+            <p>運用を止める状態、再開条件、見直し手順を同じ行に残します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Example rows</p>
+          <h2>記入例</h2>
+        </div>
+        <div class="template-table" aria-label="AI risk register example rows">
+          <div>Risk</div>
+          <div>Impact</div>
+          <div>Trigger</div>
+          <div>Control</div>
+          <div>Related kit</div>
+          <div>機密情報の入力</div>
+          <div>顧客情報、社内機密の漏えいリスク。</div>
+          <div>自由入力欄に社外秘情報が含まれる。</div>
+          <div>入力禁止、要約入力、人間確認。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>外部送信前の未確認</div>
+          <div>誤回答や不適切表現が外部に出る。</div>
+          <div>AI出力をそのまま送信する。</div>
+          <div>送信前レビュー、承認ログ。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>権限過多</div>
+          <div>削除、変更、購入、請求などの影響。</div>
+          <div>AIが外部状態を変更できる。</div>
+          <div>読み取り専用、承認点、停止条件。</div>
+          <div>AI Ops Diagnostic Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Related kit</p>
+          <h2>台帳から運用表へ落とす場合</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            AI Ops Diagnostic Kitは、リスク台帳を統制マトリクス、証跡ログ、10日計画へつなげる
+            ためのテンプレートを含みます。
+          </p>
+          <p>
+            このページは内部管理の整理用です。セキュリティ監査、法令適合、事故防止、
+            リスクゼロを保証するものではありません。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI risk register planning.</p>
+    </footer>
+  </body>
+</html>
