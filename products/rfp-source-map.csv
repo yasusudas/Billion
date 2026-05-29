@@ -1,0 +1,4 @@
+source_name,source_type,url_or_location,allowed_use,review_cadence,owner,notes
+Public procurement portal,Public portal,Add official URL,Manual review or saved search,Weekly,Sales ops,Do not bypass access controls
+Agency procurement page,Public agency site,Add agency URL,Manual review,Weekly,Proposal lead,Record source date
+Industry newsletter,Public newsletter,Add subscription source,Review headline and official link,Weekly,Sales ops,Use only public summary unless licensed
