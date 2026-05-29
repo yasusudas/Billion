@@ -1,0 +1,6 @@
+check_id,question,pass_condition,owner
+REC-A1,Are allowed inquiry types documented?,At least five common types are mapped,Reception lead
+REC-A2,Are prohibited actions documented?,Booking payment medical safety legal and hiring restrictions are listed,Operations lead
+REC-A3,Are fallback rules tested?,Each rule has a sample trigger and human path,Reception lead
+REC-A4,Is evidence limited?,No private recordings logs or payment data are stored in pilot notes,Privacy owner
+REC-A5,Is success measurable?,Routing accuracy missed follow-up and operator review cadence are defined,Operations lead
