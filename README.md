@@ -34,6 +34,23 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `Reception AI Pilot Kit`: JPY 6,800
 - `AI Operations Starter Bundle`: JPY 19,800
 
+## Checkout activation
+
+Hosted checkout URLs are not embedded yet. The checkout connection is prepared
+as a guarded static replacement flow:
+
+- `checkout/activation-spec.md` defines the product-to-success-URL map.
+- `checkout/checkout-links.example.json` is the safe manifest template.
+- `scripts/validate-checkout-links.mjs` checks business name, product IDs,
+  exact JPY amounts, Stripe-hosted HTTPS URLs, and key-like private values.
+- `scripts/apply-checkout-links.mjs` replaces only disabled purchase CTAs with
+  matching product sections after validation passes.
+
+Use a local manifest named `checkout/checkout-links.local.json` for real hosted
+checkout URLs. That file is ignored by this project so private setup notes
+are not accidentally committed. Public hosted checkout URLs may appear in the
+generated HTML only after account-owner activation and validation.
+
 ## Files
 
 - `index.html`
@@ -67,6 +84,10 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `use-cases/reception-ai-pilot.html`
 - `legal/commercial-disclosure.html`
 - `legal/privacy.html`
+- `checkout/activation-spec.md`
+- `checkout/checkout-links.example.json`
+- `scripts/validate-checkout-links.mjs`
+- `scripts/apply-checkout-links.mjs`
 - `products/*.md`
 - `products/*.csv`
 - `sitemap.xml`

@@ -1,0 +1,45 @@
+{
+  "schema": "billion-ai-checkout-links/v1",
+  "business_name": "Billion AI Operations Studio",
+  "site_url": "https://billionai.vercel.app/",
+  "provider": "stripe",
+  "mode": "pending",
+  "products": [
+    {
+      "id": "ai-ops-diagnostic-kit",
+      "name": "AI Ops Diagnostic Kit",
+      "amount_jpy": 9800,
+      "currency": "JPY",
+      "kit_page": "/kits/ai-ops-diagnostic-kit.html",
+      "delivery_success_url": "https://billionai.vercel.app/delivery/ai-ops-diagnostic-kit.html",
+      "checkout_url": "PENDING_HOSTED_CHECKOUT_URL"
+    },
+    {
+      "id": "rfp-radar-setup-kit",
+      "name": "RFP Radar Setup Kit",
+      "amount_jpy": 7800,
+      "currency": "JPY",
+      "kit_page": "/kits/rfp-radar-setup-kit.html",
+      "delivery_success_url": "https://billionai.vercel.app/delivery/rfp-radar-setup-kit.html",
+      "checkout_url": "PENDING_HOSTED_CHECKOUT_URL"
+    },
+    {
+      "id": "reception-ai-pilot-kit",
+      "name": "Reception AI Pilot Kit",
+      "amount_jpy": 6800,
+      "currency": "JPY",
+      "kit_page": "/kits/reception-ai-pilot-kit.html",
+      "delivery_success_url": "https://billionai.vercel.app/delivery/reception-ai-pilot-kit.html",
+      "checkout_url": "PENDING_HOSTED_CHECKOUT_URL"
+    },
+    {
+      "id": "ai-operations-starter-bundle",
+      "name": "AI Operations Starter Bundle",
+      "amount_jpy": 19800,
+      "currency": "JPY",
+      "kit_page": "/kits/ai-operations-starter-bundle.html",
+      "delivery_success_url": "https://billionai.vercel.app/delivery/ai-operations-starter-bundle.html",
+      "checkout_url": "PENDING_HOSTED_CHECKOUT_URL"
+    }
+  ]
+}
