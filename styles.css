@@ -262,7 +262,7 @@ h3 {
 }
 
 .product-grid,
-delivery-grid,
+.delivery-grid,
 .asset-grid,
 .download-grid {
   display: grid;
