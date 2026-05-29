@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Operations Risk Checklist | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="A practical AI operations risk checklist for teams reviewing LLM workflows, approvals, data boundaries, fallback paths, and rollout stop conditions."
+    />
+    <link rel="canonical" href="https://billionai.vercel.app/guides/ai-operations-risk-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Guide navigation">
+        <a href="/">Store</a>
+        <a href="/#guides">Guides</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+        <a href="/legal/commercial-disclosure.html">Disclosure</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Free guide</p>
+          <h1>AI Operations Risk Checklist</h1>
+          <p class="lead">
+            Use this checklist before expanding an LLM workflow, AI agent, or automation into a
+            production business process. It helps identify ownership, evidence, approval, and
+            fallback gaps before a paid diagnostic or internal rollout.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/#store">Compare all kits</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Checklist</p>
+          <h2>Five questions to answer before rollout</h2>
+        </div>
+        <ol class="process-list">
+          <li><strong>Owner:</strong> Who is responsible for the workflow, model output review, exceptions, and stop decisions?</li>
+          <li><strong>Boundary:</strong> What data classes, source systems, and user prompts are allowed or prohibited?</li>
+          <li><strong>Approval:</strong> Which outputs require human review before they change a customer, employee, vendor, or financial state?</li>
+          <li><strong>Evidence:</strong> What input, output, review, and correction evidence must be retained for operational review?</li>
+          <li><strong>Fallback:</strong> What happens when the workflow is uncertain, unavailable, wrong, or outside scope?</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Common gaps</p>
+          <h2>Signals that a workflow needs review</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <h3>Unclear authority</h3>
+            <p>The AI system can draft, route, approve, or escalate work, but nobody owns the final decision boundary.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Hidden data exposure</h3>
+            <p>Prompts include customer, contract, employee, or operational details without a clear input policy.</p>
+          </article>
+          <article class="offer-card">
+            <h3>No stop condition</h3>
+            <p>The team can describe expected success but not the conditions that pause the workflow or require rollback.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Next step</p>
+          <h2>Turn the checklist into an operating baseline</h2>
+        </div>
+        <p class="section-lead">
+          The AI Ops Diagnostic Kit expands this free checklist into editable templates for a
+          control matrix, risk review, and 10-business-day diagnostic plan. Payments are not yet
+          enabled on this storefront.
+        </p>
+        <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View kit details</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Free guide for internal AI operations planning. This guide is not legal, security, financial, or compliance advice.</p>
+    </footer>
+  </body>
+</html>
