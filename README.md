@@ -38,6 +38,9 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 
 - `index.html`
 - `styles.css`
+- `faq.html`
+- `compare.html`
+- `samples.html`
 - `delivery/ai-ops-diagnostic-kit.html`
 - `delivery/rfp-radar-setup-kit.html`
 - `delivery/reception-ai-pilot-kit.html`
@@ -46,6 +49,9 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `kits/rfp-radar-setup-kit.html`
 - `kits/reception-ai-pilot-kit.html`
 - `kits/ai-operations-starter-bundle.html`
+- `guides/ai-operations-risk-checklist.html`
+- `guides/rfp-radar-workflow.html`
+- `guides/reception-ai-pilot-plan.html`
 - `legal/commercial-disclosure.html`
 - `products/*.md`
 - `products/*.csv`
@@ -67,6 +73,8 @@ The public storefront does not link directly to delivery downloads. Static succe
 - No contact form
 - No tracking script
 - No client-side JavaScript
+- Public free guides for organic discovery and buyer self-qualification
+- Public FAQ, comparison, and sample preview pages for no-call buyer qualification
 - No payment collection without hosted checkout activation
 - Commercial disclosure page prepared; legal seller details and support route still require account-owner confirmation before live checkout
 - Actual Markdown and CSV product files prepared for post-checkout delivery
