@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI業務 証跡ログテンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="LLMやAI業務ワークフローの入力、出力、人間レビュー、修正理由、停止判断を記録するための公開テンプレート解説。"
+    />
+    <meta property="og:title" content="AI業務 証跡ログテンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AI業務の入力、出力、人間レビュー、修正理由、停止判断を記録する公開テンプレート解説。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/ai-workflow-evidence-log-template.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/ai-workflow-evidence-log-template.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/samples.html">Samples</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>AI業務 証跡ログテンプレート</h1>
+          <p class="lead">
+            AIを使った業務の入力、出力、人間レビュー、修正理由、停止判断を、後から見返せる
+            粒度で残すための公開テンプレート解説です。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/samples.html">Open sample previews</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Evidence fields</p>
+          <h2>証跡ログに入れる列</h2>
+        </div>
+        <div class="template-table" aria-label="AI workflow evidence log template fields">
+          <div>列</div>
+          <div>意味</div>
+          <div>記入例</div>
+          <div>確認観点</div>
+          <div>関連キット</div>
+          <div>workflow</div>
+          <div>対象業務。</div>
+          <div>問い合わせ分類</div>
+          <div>業務責任者が分かるか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>input_summary</div>
+          <div>入力内容の非機密要約。</div>
+          <div>営業時間に関する質問</div>
+          <div>必要以上の情報を残していないか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>ai_output_summary</div>
+          <div>AI出力の要約。</div>
+          <div>営業時間ページを案内</div>
+          <div>外部送信前に確認したか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>human_review</div>
+          <div>承認、修正、停止などの判断。</div>
+          <div>Approved with source link</div>
+          <div>判断理由が追えるか。</div>
+          <div>AI Ops Diagnostic Kit</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Use cases</p>
+          <h2>ログが役立つ場面</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Review</p>
+            <h3>出力品質の見直し</h3>
+            <p>どの種類の問い合わせや作業で修正が多いかを確認し、AIの担当範囲を狭められます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Fallback</p>
+            <h3>停止条件の改善</h3>
+            <p>停止すべきだったケースを見つけ、fallback rulesへ反映します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Training</p>
+            <h3>運用引き継ぎ</h3>
+            <p>担当者が変わっても、判断理由と修正例を参照しやすくします。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>内部運用ログの設計です</h2>
+        </div>
+        <p class="section-lead">
+          このテンプレートは内部運用の振り返りを助けるものです。法的な証拠能力、監査適合、
+          セキュリティ要件充足、規制対応を保証するものではありません。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI workflow evidence logging.</p>
+    </footer>
+  </body>
+</html>
