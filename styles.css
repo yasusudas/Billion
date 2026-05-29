@@ -254,6 +254,15 @@ h3 {
   gap: 18px;
 }
 
+.product-grid,
+.delivery-grid,
+.asset-grid,
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
 .policy-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -265,6 +274,115 @@ h3 {
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.product-card,
+.delivery-card,
+.asset-card,
+.download-card {
+  display: grid;
+  gap: 14px;
+  min-height: 310px;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.product-card.featured {
+  border-color: rgba(15, 111, 79, 0.42);
+  background: #eef6ef;
+}
+
+.product-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.price {
+  display: block;
+  margin-top: auto;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.button.primary.disabled-link {
+  border-color: #b8c2ba;
+  background: #d9dfd6;
+  color: #34413a;
+}
+
+.delivery-card {
+  min-height: 160px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.asset-card,
+.download-card {
+  min-height: 150px;
+  box-shadow: none;
+}
+
+.download-card {
+  align-content: space-between;
+}
+
+.asset-card span,
+.download-card span {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.download-card a {
+  width: fit-content;
+  color: var(--green-dark);
+  font-weight: 820;
+}
+
+.delivery-card span {
+  color: var(--muted);
+}
+
+.section-lead {
+  max-width: 840px;
+  color: var(--muted);
+  font-size: 1.08rem;
+}
+
+.notice-panel {
+  max-width: 960px;
+  padding: 24px;
+  background: #fffaf0;
+  border: 1px solid #eadab8;
+  border-left: 5px solid var(--gold);
+  border-radius: 8px;
+}
+
+.delivery-hero {
+  min-height: 58vh;
+}
+
+.template-table {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(140px, 1fr));
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.template-table div {
+  min-width: 140px;
+  padding: 14px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.template-table div:nth-child(-n + 5) {
+  background: #eef6ef;
+  font-weight: 760;
 }
 
 .offer-card p,
@@ -384,6 +502,10 @@ h3 {
 
   .two-column,
   .offer-grid,
+  .product-grid,
+  .delivery-grid,
+  .asset-grid,
+  .download-grid,
   .policy-grid {
     grid-template-columns: 1fr;
   }
