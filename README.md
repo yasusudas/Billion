@@ -42,6 +42,10 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `delivery/rfp-radar-setup-kit.html`
 - `delivery/reception-ai-pilot-kit.html`
 - `delivery/ai-operations-starter-bundle.html`
+- `kits/ai-ops-diagnostic-kit.html`
+- `kits/rfp-radar-setup-kit.html`
+- `kits/reception-ai-pilot-kit.html`
+- `kits/ai-operations-starter-bundle.html`
 - `legal/commercial-disclosure.html`
 - `products/*.md`
 - `products/*.csv`
