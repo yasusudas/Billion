@@ -1,5 +1,0 @@
-opportunity_id,week_start,source_name,public_source_url,keyword,fit_score,eligibility_unknowns,deadline_pressure,proposal_effort,decision,owner,reason
-RFP-001,2026-06-01,Public procurement portal,Add official URL,AI operations,3,Eligibility and procurement method,Medium,Medium,Watch,Proposal lead,Theme matches but requirements need review
-RFP-002,2026-06-01,Agency procurement page,Add official URL,DX support,4,Consortium requirement,High,High,Review now,Sales operations,Scope may fit workflow review if timeline is realistic
-RFP-003,2026-06-01,Industry newsletter,Add official URL,Reception automation,2,Budget and buyer intent,Low,Medium,Monitor,Proposal lead,Signal is useful but no procurement notice yet
-RFP-004,2026-06-01,Public portal,Add official URL,Data governance,5,Eligibility only,Medium,High,Prepare brief,Sales operations,Strong theme match and clear owner required

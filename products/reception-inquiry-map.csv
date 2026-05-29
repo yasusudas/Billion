@@ -1,5 +1,0 @@
-inquiry_type,allowed_ai_action,human_fallback,prohibited_action,evidence_source
-Business hours,Share public hours,Conflicting information,Promise special opening,Public website
-Booking request,Collect preferred slots,Payment medical or safety issue,Confirm final reservation,Booking policy
-Pricing question,Provide public price range,Custom quote requested,Guarantee final price,Published pricing page
-Complaint,Classify and route,Legal threat or safety issue,Admit liability,Support policy

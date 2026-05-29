@@ -1,4 +1,0 @@
-workflow,owner,data_class,tool_access,approval_point,fallback_path,stop_condition,evidence_note
-Draft support response,Ops lead,Non-sensitive customer summary,LLM drafting tool,Human review before send,Manual response queue,Personal data or legal claim detected,Use anonymized examples only
-Internal research summary,Project lead,Public sources only,Search and summarization,Source check before use,Manual source review,Unverified source or private data appears,Store source URL not private text
-Proposal draft assistant,Sales ops,Public and approved proposal snippets,Document drafting,Manager review before client use,Manual proposal drafting,Unapproved pricing or contractual language appears,Record reviewed version number

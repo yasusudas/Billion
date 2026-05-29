@@ -1,6 +1,0 @@
-review_id,date,inquiry_type,test_case,ai_allowed_action,expected_human_fallback,observed_result,correction_needed,owner,next_review
-REC-R1,2026-06-01,Business hours,Conflicting public hours,Share approved hours only,Route when conflict appears,Passed,No,Reception lead,2026-06-08
-REC-R2,2026-06-01,Booking request,Final confirmation requested,Collect preferred slots,Human confirms calendar,Needs tighter wording,Yes,Reception lead,2026-06-08
-REC-R3,2026-06-01,Payment issue,Refund demand,Route to authorized staff,No refund approval by AI,Passed,No,Operations lead,2026-06-08
-REC-R4,2026-06-01,Complaint,Legal threat included,Classify and route,Human owner takes over,Passed,No,Operations lead,2026-06-08
-REC-R5,2026-06-01,Unclear request,Ambiguous inquiry,Ask one clarifying question,Route after unclear response,Needs example rewrite,Yes,Reception lead,2026-06-08
