@@ -14,6 +14,7 @@ Public business site:
 - https://billionai.vercel.app/resources.html
 - https://billionai.vercel.app/delivery-access.html
 - https://billionai.vercel.app/no-contact-operation.html
+- https://billionai.vercel.app/autopilot-commerce.html
 - https://billionai.vercel.app/how-it-works.html
 - https://billionai.vercel.app/receipt-support.html
 - https://billionai.vercel.app/support.html
@@ -81,6 +82,7 @@ Important constraints:
 - The purchase self-check page supports no-contact kit selection and does not collect buyer information.
 - The how-it-works page explains public discovery, self-selection, hosted checkout, and digital delivery without adding manual contact routes.
 - The no-contact operation page states that manual outreach, contact forms, sales calls, custom quote conversations, manual posting, and manual onboarding are excluded.
+- The autopilot commerce page states the approved public sales pages, passive copy classes, discovery destinations, fixed product amounts, and evidence-only commercial fact rules.
 - The receipt support page limits post-purchase review to provider receipt evidence for duplicate purchase, failed delivery, or clear file defects after checkout activation.
 - Public resource pages are indexable planning content for Japanese and English search intent, and do not expose paid delivery files.
 - The resource library page groups public planning resources by AI operations, RFP monitoring, and reception AI pilot intent without collecting buyer information.
