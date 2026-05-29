@@ -1,6 +1,18 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/products",
+      "destination": "/delivery-access",
+      "permanent": false
+    },
+    {
+      "source": "/products/:path*",
+      "destination": "/delivery-access",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/checkout/(.*)",

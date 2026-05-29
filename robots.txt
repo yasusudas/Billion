@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Disallow: /checkout/
+Disallow: /delivery/
+Disallow: /products/
+Disallow: /scripts/
 
 Sitemap: https://billionai.vercel.app/sitemap.xml
