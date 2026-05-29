@@ -1,0 +1,5 @@
+rule_id,trigger,required_human_action,response_boundary,owner
+REC-01,Medical safety or emergency language appears,Route immediately to human or emergency instruction,AI must not diagnose or advise,Reception lead
+REC-02,Payment dispute or refund demand appears,Route to authorized staff,AI must not approve refund,Operations lead
+REC-03,Booking confirmation requested,Human verifies calendar and confirms,AI may collect preferences only,Reception lead
+REC-04,Personal data beyond normal inquiry appears,Stop and route to human,AI must not store or repeat sensitive data,Privacy owner
