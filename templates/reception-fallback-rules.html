@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reception Fallback Rules Template | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="Public preview of a reception AI fallback rules template for triggers, human actions, response boundaries, and owner assignment."
+    />
+    <meta property="og:title" content="Reception Fallback Rules Template | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="Preview a reception AI fallback rules template for deciding when operators must take over."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/templates/reception-fallback-rules.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Reception Fallback Rules Template | Billion AI Operations Studio" />
+    <meta
+      name="twitter:description"
+      content="Preview a reception AI fallback rules template for deciding when operators must take over."
+    />
+    <link rel="canonical" href="https://billionai.vercel.app/templates/reception-fallback-rules.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Template navigation">
+        <a href="/">Store</a>
+        <a href="/#templates">Templates</a>
+        <a href="/guides/reception-ai-pilot-plan.html">Guide</a>
+        <a href="/kits/reception-ai-pilot-kit.html">Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Template preview</p>
+          <h1>Reception fallback rules template</h1>
+          <p class="lead">
+            A pilot-planning table for writing the triggers that require human takeover, the
+            allowed response boundary, and the owner responsible for each reception AI fallback.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/reception-ai-pilot-kit.html">View Reception AI Pilot Kit</a>
+            <a class="button secondary" href="/use-cases/reception-ai-pilot.html">Read use case</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="Fallback rules overview">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>1</span><p>Trigger</p></div>
+            <div class="visual-row"><span>2</span><p>Human action</p></div>
+            <div class="visual-row"><span>3</span><p>AI boundary</p></div>
+            <div class="visual-row accent"><span>4</span><p>Owner</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Use</p>
+          <h2>What the rules prevent</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <h3>Unclear handoff</h3>
+            <p>Operators see which language or request type should stop the AI flow and route to a person.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Over-broad responses</h3>
+            <p>The response boundary states what the AI must not decide, approve, diagnose, or promise.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Owner gaps</h3>
+            <p>Each fallback rule has a role responsible for review and maintenance.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Fields</p>
+          <h2>Representative columns</h2>
+        </div>
+        <div class="template-table" aria-label="Reception fallback rule fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example value</div>
+          <div>Review point</div>
+          <div>Included in</div>
+          <div>trigger</div>
+          <div>Signal that requires fallback.</div>
+          <div>Payment dispute or refund demand appears</div>
+          <div>Can an operator identify it quickly?</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>required_human_action</div>
+          <div>Manual step after the trigger appears.</div>
+          <div>Route to authorized staff</div>
+          <div>Is the action clear enough?</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>response_boundary</div>
+          <div>What the AI must not decide or say.</div>
+          <div>AI must not approve refund</div>
+          <div>Does this block final decisions?</div>
+          <div>Reception AI Pilot Kit</div>
+          <div>owner</div>
+          <div>Role accountable for rule maintenance.</div>
+          <div>Operations lead</div>
+          <div>Is the role named?</div>
+          <div>Reception AI Pilot Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>Not a customer-facing script</h2>
+        </div>
+        <p class="section-lead">
+          The fallback template is for pilot planning. It does not provide medical, safety, legal,
+          refund, booking, hiring, or final customer-service decisions.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Template preview for reception AI fallback planning.</p>
+    </footer>
+  </body>
+</html>
