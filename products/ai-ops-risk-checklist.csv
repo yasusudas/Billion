@@ -1,0 +1,7 @@
+check_id,area,question,pass_condition,owner,review_cadence
+OPS-01,Ownership,Is a workflow owner named?,Owner is listed and accepts responsibility,Ops lead,Quarterly
+OPS-02,Data boundary,Is the permitted data class documented?,Sensitive inputs are excluded or explicitly approved,Security owner,Before rollout
+OPS-03,Human review,Is there a human approval point before external use?,Approval role and timing are written,Workflow owner,Before rollout
+OPS-04,Fallback,Can the workflow continue without the AI tool?,Manual path is documented,Ops lead,Quarterly
+OPS-05,Stop condition,Are stop conditions plain and actionable?,At least three stop conditions are listed,Workflow owner,Before rollout
+OPS-06,Evidence,Can review evidence be stored without restricted data?,Evidence note avoids private logs and credentials,Ops lead,Monthly
