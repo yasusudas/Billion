@@ -5,6 +5,10 @@ Billion AI Operations Studio sells self-serve digital business kits and remote B
 Public business site:
 
 - https://billionai.vercel.app/
+- https://billionai.vercel.app/kits/ai-ops-diagnostic-kit.html
+- https://billionai.vercel.app/kits/rfp-radar-setup-kit.html
+- https://billionai.vercel.app/kits/reception-ai-pilot-kit.html
+- https://billionai.vercel.app/kits/ai-operations-starter-bundle.html
 
 Important constraints:
 
