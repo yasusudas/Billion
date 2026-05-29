@@ -228,6 +228,13 @@ h3 {
   padding: clamp(56px, 8vw, 96px) clamp(20px, 5vw, 80px);
 }
 
+.anchor-alias {
+  display: block;
+  height: 0;
+  position: relative;
+  top: -92px;
+}
+
 .band {
   background: #ffffff;
   border-top: 1px solid var(--line);
@@ -255,7 +262,7 @@ h3 {
 }
 
 .product-grid,
-.delivery-grid,
+delivery-grid,
 .asset-grid,
 .download-grid {
   display: grid;
