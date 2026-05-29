@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Ops Risk Checklist Template | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="Public preview of an AI operations risk checklist template for ownership, data boundary, human review, fallback, stop condition, and evidence checks."
+    />
+    <meta property="og:title" content="AI Ops Risk Checklist Template | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="Preview a structured AI operations risk checklist for teams reviewing LLM workflow rollout readiness."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/templates/ai-ops-risk-checklist.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="AI Ops Risk Checklist Template | Billion AI Operations Studio" />
+    <meta
+      name="twitter:description"
+      content="Preview a structured AI operations risk checklist for teams reviewing LLM workflow rollout readiness."
+    />
+    <link rel="canonical" href="https://billionai.vercel.app/templates/ai-ops-risk-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Template navigation">
+        <a href="/">Store</a>
+        <a href="/#templates">Templates</a>
+        <a href="/guides/ai-operations-risk-checklist.html">Guide</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Template preview</p>
+          <h1>AI ops risk checklist template</h1>
+          <p class="lead">
+            A review checklist for deciding whether an AI workflow has enough ownership, data
+            boundary clarity, human review, fallback planning, stop rules, and evidence discipline
+            before rollout.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/guides/ai-operations-risk-checklist.html">Read planning guide</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Review areas</p>
+          <h2>Checklist scope</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <h3>Before rollout</h3>
+            <p>Check whether ownership and allowed data classes are written before a workflow becomes operational.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Before permission changes</h3>
+            <p>Use the checklist when tool access, model output use, or workflow reach changes.</p>
+          </article>
+          <article class="offer-card">
+            <h3>Before review evidence is stored</h3>
+            <p>Confirm the evidence note can be retained without private logs, credentials, or restricted buyer data.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Fields</p>
+          <h2>Representative columns</h2>
+        </div>
+        <div class="template-table" aria-label="AI ops risk checklist fields">
+          <div>Field</div>
+          <div>Meaning</div>
+          <div>Example value</div>
+          <div>Review point</div>
+          <div>Included in</div>
+          <div>area</div>
+          <div>Risk or operating-control theme.</div>
+          <div>Human review</div>
+          <div>Is the review step tied to a named role?</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>question</div>
+          <div>Plain-language check to answer.</div>
+          <div>Is there a human approval point before external use?</div>
+          <div>Can the team answer yes or no?</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>pass_condition</div>
+          <div>Minimum condition for the check to pass.</div>
+          <div>Approval role and timing are written</div>
+          <div>Is the condition observable?</div>
+          <div>AI Ops Diagnostic Kit</div>
+          <div>review_cadence</div>
+          <div>When the check should be rerun.</div>
+          <div>Before rollout</div>
+          <div>Does this match the workflow risk level?</div>
+          <div>AI Ops Diagnostic Kit</div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>Internal operating review only</h2>
+        </div>
+        <p class="section-lead">
+          The checklist is a planning aid. It does not guarantee incident prevention, audit
+          readiness, legal compliance, or security approval.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Template preview for AI operations risk review.</p>
+    </footer>
+  </body>
+</html>
