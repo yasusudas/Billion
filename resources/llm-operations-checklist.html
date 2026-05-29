@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LLM業務運用チェックリスト | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="LLMやAIエージェントを業務へ入れる前に確認する、責任者、データ境界、承認、証跡、停止条件の公開チェックリスト。Billion AI Operations Studioのセルフサービス型AI業務運用キット用リソースです。"
+    />
+    <meta property="og:title" content="LLM業務運用チェックリスト | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="AI業務運用の責任者、データ境界、承認、証跡、停止条件を事前に確認する公開チェックリスト。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/llm-operations-checklist.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="LLM業務運用チェックリスト | Billion AI Operations Studio" />
+    <meta
+      name="twitter:description"
+      content="AI業務運用の責任者、データ境界、承認、証跡、停止条件を事前に確認する公開チェックリスト。"
+    />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/llm-operations-checklist.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+        <a href="/compare.html">Compare</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>LLM業務運用チェックリスト</h1>
+          <p class="lead">
+            LLM、AIエージェント、社内自動化を業務に入れる前に、責任者、扱ってよいデータ、
+            人間の承認点、証跡、停止条件を短時間で確認するための公開リソースです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/templates/ai-ops-control-matrix.html">Preview control matrix</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="Checklist outline">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>1</span><p>Responsible owner</p></div>
+            <div class="visual-row"><span>2</span><p>Data boundary</p></div>
+            <div class="visual-row"><span>3</span><p>Human review point</p></div>
+            <div class="visual-row accent"><span>4</span><p>Stop condition</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Checklist</p>
+          <h2>業務投入前に確認する項目</h2>
+        </div>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <p class="offer-label">Ownership</p>
+            <h3>責任者と停止権限</h3>
+            <p>出力の最終責任者、例外時の判断者、ワークフローを止められる人を明文化します。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Boundary</p>
+            <h3>入力データの範囲</h3>
+            <p>顧客情報、契約、従業員情報、機密資料など、扱ってよい情報と除外情報を分けます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Review</p>
+            <h3>人間の承認点</h3>
+            <p>外部送信、顧客影響、金銭影響、契約影響の前に人間確認が必要な箇所を決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Evidence</p>
+            <h3>証跡の残し方</h3>
+            <p>入力、出力、レビュー結果、修正理由、停止判断をどの粒度で残すかを決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Fallback</p>
+            <h3>手動運用への戻し方</h3>
+            <p>AIが不確実、範囲外、利用不可、誤回答の疑いがある場合の戻し先を決めます。</p>
+          </article>
+          <article class="offer-card">
+            <p class="offer-label">Scope</p>
+            <h3>対象外業務</h3>
+            <p>法務判断、医療判断、金融助言、採用判断、決済処理などの対象外を明記します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">When to buy</p>
+          <h2>キットが合う状況</h2>
+        </div>
+        <div class="two-column">
+          <p>
+            この無料チェックリストで空欄が多い場合は、AI Ops Diagnostic Kitの統制マトリクス、
+            リスクチェックリスト、10営業日計画、証跡ログを使うと、最初の運用棚卸しを進めやすくなります。
+          </p>
+          <p>
+            このページは公開リソースであり、監査、認証、法令適合、セキュリティ保証を提供するものではありません。
+            実決済はホスト型チェックアウトが有効化された後に限られます。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI operations planning.</p>
+    </footer>
+  </body>
+</html>
