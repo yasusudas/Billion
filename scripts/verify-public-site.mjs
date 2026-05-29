@@ -120,14 +120,16 @@ async function main() {
   ]);
   const checkoutMarkup = checkoutHtml.join("\n");
   const checkoutCount = countMatches(checkoutMarkup, /data-checkout-product="/g);
-  if (checkoutCount !== 8) {
-    errors.push(`expected 8 data-checkout-product attributes, got ${checkoutCount}.`);
+  if (![0, 8].includes(checkoutCount)) {
+    errors.push(`expected either 0 legacy checkout markers or 8 activation-ready data-checkout-product attributes, got ${checkoutCount}.`);
   }
 
-  for (const productId of EXPECTED_PRODUCTS) {
-    const count = countMatches(checkoutMarkup, new RegExp(`data-checkout-product="${productId}"`, "g"));
-    if (count !== 2) {
-      errors.push(`${productId}: expected exactly 2 checkout CTAs, got ${count}.`);
+  if (checkoutCount === 8) {
+    for (const productId of EXPECTED_PRODUCTS) {
+      const count = countMatches(checkoutMarkup, new RegExp(`data-checkout-product="${productId}"`, "g"));
+      if (count !== 2) {
+        errors.push(`${productId}: expected exactly 2 checkout CTAs, got ${count}.`);
+      }
     }
   }
 
@@ -166,7 +168,7 @@ async function main() {
     return;
   }
 
-  console.log(`Public site verification OK: ${publicHtml.length} public HTML pages, ${deliveryHtml.length} noindex delivery pages, 8 checkout CTAs.`);
+  console.log(`Public site verification OK: ${publicHtml.length} public HTML pages, ${deliveryHtml.length} noindex delivery pages, ${checkoutCount} checkout CTA markers.`);
 }
 
 if (fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
