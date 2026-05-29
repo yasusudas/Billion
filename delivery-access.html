@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delivery and Access | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="How Billion AI Operations Studio self-serve digital kit delivery, hosted checkout redirects, access limits, and no-form privacy posture work."
+    />
+    <meta property="og:title" content="Delivery and Access | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="How self-serve digital kit delivery works after hosted checkout is activated."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/delivery-access.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/delivery-access.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Delivery access navigation">
+        <a href="/">Store</a>
+        <a href="/faq.html">FAQ</a>
+        <a href="/legal/privacy.html">Privacy</a>
+        <a href="/legal/commercial-disclosure.html">Disclosure</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Delivery and access</p>
+          <h1>How self-serve delivery works</h1>
+          <p class="lead">
+            This page explains the intended delivery flow for digital kits after hosted checkout is
+            activated. Payments are not yet enabled, so no order or delivery claim is made here.
+          </p>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Flow</p>
+          <h2>Planned checkout-to-delivery sequence</h2>
+        </div>
+        <ol class="process-list">
+          <li><strong>Buyer reviews public pages:</strong> Product details, FAQ, samples, comparison, and policies can be read without a form.</li>
+          <li><strong>Hosted checkout opens:</strong> A payment-provider hosted checkout link is used after account-owner activation.</li>
+          <li><strong>Successful checkout redirects:</strong> The provider redirects the buyer to the matching kit delivery page.</li>
+          <li><strong>Buyer downloads files:</strong> The buyer uses the delivered templates internally under the stated boundaries.</li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Limits</p>
+          <h2>Access model and limitations</h2>
+        </div>
+        <div class="notice-panel">
+          <p>
+            Delivery pages and product files are prepared for hosted-checkout success redirects and
+            are marked noindex through metadata and response headers. Static success URLs are not
+            strong authentication. If stronger access control is required, use a dedicated delivery
+            service after hosted checkout is active.
+          </p>
+          <p>
+            The public storefront does not include input fields for payment details, passwords,
+            customer logs, private documents, or support messages. Hosted checkout, when enabled,
+            is handled by the payment provider.
+          </p>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Current status</p>
+          <h2>Checkout is not active yet</h2>
+        </div>
+        <p class="section-lead">
+          The storefront and delivery structure are ready, but hosted checkout links are not yet
+          connected. Until the payment account owner completes setup, this site cannot collect
+          payment and does not confirm any order, invoice, contract, or payment.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Delivery model for self-serve digital kits.</p>
+      <p><a href="/legal/privacy.html">Privacy</a></p>
+    </footer>
+  </body>
+</html>
