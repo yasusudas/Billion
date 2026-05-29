@@ -63,6 +63,10 @@ generated HTML only after account-owner activation and validation.
 - `resources/ai-agent-governance-template.html`
 - `resources/rfp-monitoring-template.html`
 - `resources/reception-ai-requirements.html`
+- `resources/ai-agent-human-review-checklist.html`
+- `resources/ai-workflow-evidence-log-template.html`
+- `resources/rfp-opportunity-scorecard-template.html`
+- `resources/reception-ai-fallback-checklist.html`
 - `buyers/ai-operations-manager.html`
 - `buyers/proposal-manager.html`
 - `buyers/front-office-manager.html`
@@ -92,8 +96,6 @@ generated HTML only after account-owner activation and validation.
 - `checkout/checkout-links.example.json`
 - `scripts/validate-checkout-links.mjs`
 - `scripts/apply-checkout-links.mjs`
-- `products/*.md`
-- `products/*.csv`
 - `sitemap.xml`
 - `llms.txt`
 - `robots.txt`
@@ -101,7 +103,7 @@ generated HTML only after account-owner activation and validation.
 
 Hosted checkout links are intentionally not embedded until the payment account owner completes payout, identity, tax, and legal-display setup in the payment provider.
 
-Delivery pages and product files are accessible without a password for hosted-checkout success redirects, but they are marked `noindex` through page metadata and Vercel response headers.
+Delivery pages are public, noindex delivery manifests for hosted-checkout success redirects. Full paid delivery files should remain outside this public verification repository while hosted checkout and fulfillment are pending.
 
 The public storefront does not link directly to delivery downloads. Static success URLs are still not authentication; use hosted checkout or a dedicated delivery service if stronger access control is required.
 
@@ -115,10 +117,11 @@ The public storefront does not link directly to delivery downloads. Static succe
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
 - Public Japanese resource pages for organic discovery around LLM operations, AI agent governance, RFP monitoring, and reception AI requirements
+- Additional public Japanese resource pages for AI agent human review, AI workflow evidence logs, RFP opportunity scoring, and reception AI fallback planning
 - Public buyer role pages for no-call purchase decisions
 - Public template preview pages for organic discovery without exposing delivery files
 - Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
 - No payment collection without hosted checkout activation
 - Commercial disclosure page prepared; legal seller details and support route still require account-owner confirmation before live checkout
-- Actual Markdown and CSV product files prepared for post-checkout delivery, including expanded workflow inventory, evidence log, opportunity scorecard, weekly brief, dry-run, review log, and 30-day rollout assets
+- Paid Markdown and CSV delivery assets should not be published in this public verification repository until the checkout and fulfillment model is intentionally activated
 - Services, prices, delivery method, refund policy, cancellation policy, restrictions, privacy, and support route are visible on the page
