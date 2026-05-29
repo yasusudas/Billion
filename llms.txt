@@ -46,8 +46,11 @@ Public business site:
 - https://billionai.vercel.app/resources/generative-ai-template-comparison.html
 - https://billionai.vercel.app/resources/generative-ai-approval-request-template.html
 - https://billionai.vercel.app/resources/ai-risk-register-template.html
+- https://billionai.vercel.app/resources/ai-roi-readiness-calculator.html
 - https://billionai.vercel.app/resources/rfp-go-no-go-checklist.html
+- https://billionai.vercel.app/resources/rfp-response-readiness-scorecard.html
 - https://billionai.vercel.app/resources/reception-ai-test-script-template.html
+- https://billionai.vercel.app/resources/reception-ai-volume-estimator.html
 - https://billionai.vercel.app/buyers/ai-operations-manager.html
 - https://billionai.vercel.app/buyers/proposal-manager.html
 - https://billionai.vercel.app/buyers/front-office-manager.html
@@ -89,6 +92,7 @@ Important constraints:
 - Public resource pages are indexable planning content for Japanese and English search intent, and do not expose paid delivery files.
 - The resource library page groups public planning resources by AI operations, RFP monitoring, and reception AI pilot intent without collecting buyer information.
 - Additional high-intent Japanese resource pages target generative AI internal use requests, AI workflow inventories, RFP weekly routines, and reception AI human handoff checklists.
+- Additional paid-kit-linked resource pages target AI ROI readiness, RFP response readiness, and reception AI volume estimation.
 - Buyer role pages are no-call purchase guides and do not include forms, tracking, or manual contact paths.
 - Template preview pages describe fields and buyer fit, but do not expose full delivery files.
 - Use-case pages are product selection guides, not implementation advice or outcome guarantees.

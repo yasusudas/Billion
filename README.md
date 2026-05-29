@@ -29,9 +29,9 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 
 ## Self-serve products
 
-- `AI Ops Diagnostic Kit`: JPY 9,800. Includes operating guide, control matrix, risk checklist, 10-day plan, workflow inventory, and evidence log.
-- `RFP Radar Setup Kit`: JPY 7,800. Includes operating guide, source map, keyword tracker, weekly review, opportunity scorecard, and weekly brief template.
-- `Reception AI Pilot Kit`: JPY 6,800. Includes operating guide, inquiry map, fallback rules, acceptance checklist, dry-run script, and operator review log.
+- `AI Ops Diagnostic Kit`: JPY 9,800. Includes operating guide, control matrix, risk checklist, ROI readiness calculator, 10-day plan, workflow inventory, and evidence log.
+- `RFP Radar Setup Kit`: JPY 7,800. Includes operating guide, source map, keyword tracker, weekly review, opportunity scorecard, response readiness scorecard, and weekly brief template.
+- `Reception AI Pilot Kit`: JPY 6,800. Includes operating guide, inquiry map, fallback rules, inquiry volume estimator, acceptance checklist, dry-run script, and operator review log.
 - `AI Operations Starter Bundle`: JPY 19,800. Includes all three kits plus a 30-day rollout plan.
 
 ## Checkout activation
@@ -62,6 +62,8 @@ generated HTML only after account-owner activation and validation.
 - `how-it-works.html`
 - `resources.html`
 - `no-contact-operation.html`
+- `autopilot-commerce.html`
+- `autonomous-revenue-readiness.html`
 - `receipt-support.html`
 - `support.html`
 - `delivery-access.html`
@@ -88,8 +90,11 @@ generated HTML only after account-owner activation and validation.
 - `resources/generative-ai-template-comparison.html`
 - `resources/generative-ai-approval-request-template.html`
 - `resources/ai-risk-register-template.html`
+- `resources/ai-roi-readiness-calculator.html`
 - `resources/rfp-go-no-go-checklist.html`
+- `resources/rfp-response-readiness-scorecard.html`
 - `resources/reception-ai-test-script-template.html`
+- `resources/reception-ai-volume-estimator.html`
 - `buyers/ai-operations-manager.html`
 - `buyers/proposal-manager.html`
 - `buyers/front-office-manager.html`
@@ -171,8 +176,11 @@ node scripts/verify-live-production.mjs --expect-checkout pending
 - Public purchase self-check page for no-contact kit selection
 - Public how-it-works page for no-contact purchase, hosted checkout, and digital delivery explanation
 - Public no-contact operation page for passive storefront, distribution, checkout, amount, and evidence boundaries
+- Public autopilot commerce approval matrix for sales pages, passive copy, discovery destinations, fixed amounts, and evidence-only revenue facts
+- Public autonomous revenue readiness page for hosted checkout activation boundary and no-touch payment flow
 - Public receipt support boundary page for duplicate purchase, failed delivery, and clear file defect review after hosted checkout activation
 - Public high-intent resource pages for AI approval requests, AI risk registers, RFP go/no-go decisions, and reception AI test scripts
+- Public high-intent resource pages for AI ROI readiness, RFP response readiness, and reception AI volume estimation
 - Public resource library page and high-intent pages for AI governance checklists, RFP monitoring spreadsheets, and reception AI human handoff planning
 - Public high-intent pages for generative AI internal use requests, AI workflow inventory, RFP weekly review routines, and reception AI handoff checklists
 - Public support, terms of sale, business information, and commercial disclosure pages for verification and buyer confidence

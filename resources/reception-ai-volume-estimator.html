@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>受付AI 問い合わせ量試算テンプレート | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="受付AI導入前に、問い合わせ種別、件数、平均対応時間、AI候補動作、人間確認時間、想定削減時間、リスクを整理する試算テンプレート。"
+    />
+    <meta property="og:title" content="受付AI 問い合わせ量試算テンプレート | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="受付AIパイロットの対象範囲を、件数、対応時間、人間確認、リスクで判断する公開テンプレート解説。"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/reception-ai-volume-estimator.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/reception-ai-volume-estimator.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/resources.html">Resources</a>
+        <a href="/kits/reception-ai-pilot-kit.html">Reception Kit</a>
+        <a href="/compare.html">Compare</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Reception AI resource</p>
+          <h1>受付AI 問い合わせ量試算テンプレート</h1>
+          <p class="lead">
+            受付AIの対象範囲を、問い合わせ種別、週次件数、平均対応時間、
+            AI候補動作、人間確認時間、想定削減時間、リスクで整理するためのテンプレートです。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/reception-ai-pilot-kit.html">Reception Kitを見る</a>
+            <a class="button secondary" href="/resources/reception-ai-human-handoff-checklist.html">有人切替チェック</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Template fields</p>
+          <h2>パイロット前に見る列</h2>
+        </div>
+        <div class="template-table">
+          <div>問い合わせ</div><div>週次件数</div><div>現状時間</div><div>AI候補動作</div><div>判断</div>
+          <div>営業時間質問</div><div>80件</div><div>240分</div><div>公開情報で回答</div><div>pilot</div>
+          <div>予約変更</div><div>35件</div><div>210分</div><div>希望枠を収集</div><div>guard付きpilot</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Pilot scope</p>
+          <h2>削減時間だけで選ばない</h2>
+        </div>
+        <ol class="process-list">
+          <li>件数が多くても、金銭、医療、安全、法務、最終予約確定はroute onlyにする。</li>
+          <li>AI処理率には、人間確認へ戻る割合を必ず含める。</li>
+          <li>想定削減時間は、品質レビューと修正工数を差し引いて見る。</li>
+          <li>リスクが高い問い合わせは、回答ではなく分類と有人切替から始める。</li>
+        </ol>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Paid kit link</p>
+          <h2>有料キットに含まれるもの</h2>
+        </div>
+        <p class="section-lead">
+          Reception AI Pilot Kitには、問い合わせ量試算CSVに加えて、
+          問い合わせ分類、fallback rules、検収チェック、dry-run script、operator review logが含まれます。
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public planning resource. No form, no tracking, no manual contact route.</p>
+    </footer>
+  </body>
+</html>

@@ -241,13 +241,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://billionai.vercel.app/resources/ai-roi-readiness-calculator.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://billionai.vercel.app/resources/rfp-go-no-go-checklist.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://billionai.vercel.app/resources/rfp-response-readiness-scorecard.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://billionai.vercel.app/resources/reception-ai-test-script-template.html</loc>
+    <lastmod>2026-05-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/reception-ai-volume-estimator.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
