@@ -59,6 +59,10 @@ generated HTML only after account-owner activation and validation.
 - `compare.html`
 - `samples.html`
 - `delivery-access.html`
+- `resources/llm-operations-checklist.html`
+- `resources/ai-agent-governance-template.html`
+- `resources/rfp-monitoring-template.html`
+- `resources/reception-ai-requirements.html`
 - `buyers/ai-operations-manager.html`
 - `buyers/proposal-manager.html`
 - `buyers/front-office-manager.html`
@@ -110,6 +114,7 @@ The public storefront does not link directly to delivery downloads. Static succe
 - No client-side JavaScript
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
+- Public Japanese resource pages for organic discovery around LLM operations, AI agent governance, RFP monitoring, and reception AI requirements
 - Public buyer role pages for no-call purchase decisions
 - Public template preview pages for organic discovery without exposing delivery files
 - Public delivery/access, privacy, and use-case pages for no-touch buyer evaluation
