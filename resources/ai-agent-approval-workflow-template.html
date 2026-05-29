@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Agent Approval Workflow Template | Billion AI Operations Studio</title>
+    <meta
+      name="description"
+      content="A public AI agent approval workflow template for allowed actions, human review, evidence logs, stop conditions, and no-touch operational boundaries."
+    />
+    <meta property="og:title" content="AI Agent Approval Workflow Template | Billion AI Operations Studio" />
+    <meta
+      property="og:description"
+      content="Plan AI agent guardrails with allowed actions, human approval points, evidence logs, and stop conditions."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://billionai.vercel.app/resources/ai-agent-approval-workflow-template.html" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://billionai.vercel.app/resources/ai-agent-approval-workflow-template.html" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Billion AI Operations Studio home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Billion AI Operations Studio</span>
+      </a>
+      <nav class="nav" aria-label="Resource navigation">
+        <a href="/">Store</a>
+        <a href="/#resources">Resources</a>
+        <a href="/resources/ai-agent-governance-template.html">Governance</a>
+        <a href="/kits/ai-ops-diagnostic-kit.html">AI Ops Kit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero delivery-hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Public resource</p>
+          <h1>AI agent approval workflow template</h1>
+          <p class="lead">
+            A simple structure for deciding what an AI agent may do alone, what requires human
+            approval, what must be stopped, and what evidence should be retained for operational
+            review.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/kits/ai-ops-diagnostic-kit.html">View AI Ops Diagnostic Kit</a>
+            <a class="button secondary" href="/resources/ai-agent-governance-template.html">Read governance template</a>
+          </div>
+        </div>
+        <aside class="service-visual" aria-label="AI agent approval workflow">
+          <div class="visual-panel">
+            <div class="visual-row strong"><span>1</span><p>Allowed action</p></div>
+            <div class="visual-row"><span>2</span><p>Human approval point</p></div>
+            <div class="visual-row"><span>3</span><p>Evidence log</p></div>
+            <div class="visual-row accent"><span>4</span><p>Stop condition</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Columns</p>
+          <h2>Approval workflow fields</h2>
+        </div>
+        <div class="pricing-table" role="table" aria-label="AI agent approval workflow fields">
+          <div class="table-row table-head" role="row">
+            <div role="columnheader">Field</div>
+            <div role="columnheader">Purpose</div>
+            <div role="columnheader">Example</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Action class</div>
+            <div role="cell">Name the type of action the agent may prepare or execute.</div>
+            <div role="cell">Draft internal summary, classify inbound request, prepare weekly review.</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Allowed autonomy</div>
+            <div role="cell">Separate actions that may run automatically from actions that only create drafts.</div>
+            <div role="cell">Draft only, auto-save internal note, or human approval required.</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Human approval point</div>
+            <div role="cell">Define the exact checkpoint before external impact or irreversible action.</div>
+            <div role="cell">Review before public posting, checkout change, contract language, or buyer-facing statement.</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Evidence log</div>
+            <div role="cell">Record the input summary, output summary, reviewer, decision, and reason.</div>
+            <div role="cell">Date, workflow, source, action, reviewer, result, next review date.</div>
+          </div>
+          <div class="table-row" role="row">
+            <div role="cell">Stop condition</div>
+            <div role="cell">State when the agent must stop and wait for a responsible person.</div>
+            <div role="cell">Missing evidence, regulated decision, private data, payment-account action, or unclear authority.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Use</p>
+          <h2>How to apply the template</h2>
+        </div>
+        <ol class="process-list">
+          <li><strong>Start with low-impact work:</strong> Use the workflow for summaries, checklists, internal drafts, and review queues first.</li>
+          <li><strong>Separate preparation from execution:</strong> Let the agent prepare artifacts while keeping external action, payment action, and legal commitments behind approval.</li>
+          <li><strong>Log the reason:</strong> Store a concise reason whenever a human approves, rejects, or modifies an agent output.</li>
+          <li><strong>Review stop rules:</strong> Revisit stop conditions after incidents, product changes, or new operating domains.</li>
+        </ol>
+      </section>
+
+      <section class="section band">
+        <div class="section-heading">
+          <p class="eyebrow">Boundary</p>
+          <h2>No automated authority guarantee</h2>
+        </div>
+        <p class="section-lead">
+          This public resource is a planning template. It does not certify safety, guarantee legal
+          compliance, approve autonomous external action, or replace qualified review for regulated,
+          financial, legal, medical, employment, or high-impact decisions.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Billion AI Operations Studio</p>
+      <p>Public resource for AI agent approval workflow planning.</p>
+    </footer>
+  </body>
+</html>
