@@ -55,6 +55,42 @@
     <priority>0.72</priority>
   </url>
   <url>
+    <loc>https://billionai.vercel.app/resources/generative-ai-budget-request-template.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-tool-selection-scorecard.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-pilot-kpi-template.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/ai-internal-briefing-one-pager.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/generative-ai-90-day-rollout-roadmap.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
+    <loc>https://billionai.vercel.app/resources/generative-ai-training-agenda-template.html</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.72</priority>
+  </url>
+  <url>
     <loc>https://billionai.vercel.app/resources/rfp-go-no-go-checklist.html</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>weekly</changefreq>

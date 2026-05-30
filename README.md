@@ -33,6 +33,7 @@ This is a static site. Import the GitHub repository in Vercel and deploy from th
 - `RFP Radar Setup Kit`: JPY 7,800. Includes operating guide, source map, keyword tracker, weekly review, opportunity scorecard, response readiness scorecard, and weekly brief template.
 - `Reception AI Pilot Kit`: JPY 6,800. Includes operating guide, inquiry map, fallback rules, inquiry volume estimator, acceptance checklist, dry-run script, and operator review log.
 - `AI Operations Starter Bundle`: JPY 19,800. Includes all three kits plus a 30-day rollout plan.
+- `AI Operations Team Rollout Pack`: JPY 98,000. Includes all three kits plus a team rollout board, department adoption calendar, manager briefing template, and team license README.
 
 ## Checkout activation
 
@@ -57,6 +58,7 @@ generated HTML only after account-owner activation and validation.
 - `styles.css`
 - `faq.html`
 - `compare.html`
+- `pricing.html`
 - `samples.html`
 - `purchase-self-check.html`
 - `how-it-works.html`
@@ -91,10 +93,22 @@ generated HTML only after account-owner activation and validation.
 - `resources/generative-ai-approval-request-template.html`
 - `resources/ai-risk-register-template.html`
 - `resources/ai-roi-readiness-calculator.html`
+- `resources/generative-ai-budget-request-template.html`
+- `resources/ai-tool-selection-scorecard.html`
+- `resources/ai-pilot-kpi-template.html`
+- `resources/ai-team-rollout-roadmap-template.html`
+- `resources/department-ai-adoption-calendar-template.html`
+- `resources/ai-manager-briefing-template.html`
+- `resources/ai-internal-briefing-one-pager.html`
+- `resources/generative-ai-90-day-rollout-roadmap.html`
+- `resources/generative-ai-training-agenda-template.html`
 - `resources/rfp-go-no-go-checklist.html`
 - `resources/rfp-response-readiness-scorecard.html`
 - `resources/reception-ai-test-script-template.html`
 - `resources/reception-ai-volume-estimator.html`
+- `playbooks/ai-ops-first-hour.html`
+- `playbooks/rfp-radar-first-hour.html`
+- `playbooks/reception-ai-first-hour.html`
 - `buyers/ai-operations-manager.html`
 - `buyers/proposal-manager.html`
 - `buyers/front-office-manager.html`
@@ -113,10 +127,12 @@ generated HTML only after account-owner activation and validation.
 - `delivery/rfp-radar-setup-kit.html`
 - `delivery/reception-ai-pilot-kit.html`
 - `delivery/ai-operations-starter-bundle.html`
+- `delivery/ai-operations-team-rollout-pack.html`
 - `kits/ai-ops-diagnostic-kit.html`
 - `kits/rfp-radar-setup-kit.html`
 - `kits/reception-ai-pilot-kit.html`
 - `kits/ai-operations-starter-bundle.html`
+- `kits/ai-operations-team-rollout-pack.html`
 - `guides/ai-operations-risk-checklist.html`
 - `guides/rfp-radar-workflow.html`
 - `guides/reception-ai-pilot-plan.html`
@@ -126,6 +142,7 @@ generated HTML only after account-owner activation and validation.
 - `legal/commercial-disclosure.html`
 - `legal/business-information.html`
 - `legal/terms-of-sale.html`
+- `legal/license.html`
 - `legal/privacy.html`
 - `checkout/activation-spec.md`
 - `checkout/checkout-links.example.json`
@@ -163,6 +180,13 @@ Run the live production regression check after Vercel reflects `main`:
 node scripts/verify-live-production.mjs --expect-checkout pending
 ```
 
+After account-owner payment setup, active production verification must include
+the local checkout manifest so live Stripe hrefs are matched by product:
+
+```bash
+node scripts/verify-live-production.mjs --expect-checkout active --checkout-manifest checkout/checkout-links.local.json
+```
+
 ## Verification notes
 
 - Public, password-free HTML site
@@ -173,6 +197,7 @@ node scripts/verify-live-production.mjs --expect-checkout pending
 - No client-side JavaScript
 - Public free guides for organic discovery and buyer self-qualification
 - Public FAQ, comparison, and sample preview pages for no-call buyer qualification
+- Public pricing page with fixed tax-included amounts and no-contact scope
 - Public purchase self-check page for no-contact kit selection
 - Public how-it-works page for no-contact purchase, hosted checkout, and digital delivery explanation
 - Public no-contact operation page for passive storefront, distribution, checkout, amount, and evidence boundaries
@@ -181,9 +206,13 @@ node scripts/verify-live-production.mjs --expect-checkout pending
 - Public receipt support boundary page for duplicate purchase, failed delivery, and clear file defect review after hosted checkout activation
 - Public high-intent resource pages for AI approval requests, AI risk registers, RFP go/no-go decisions, and reception AI test scripts
 - Public high-intent resource pages for AI ROI readiness, RFP response readiness, and reception AI volume estimation
+- Public team-rollout resource pages for AI team rollout roadmaps, department adoption calendars, and manager briefing preparation
+- Public purchase-intent resource pages for budget requests, tool selection, pilot KPI planning, internal briefing, 90-day rollout, and training agenda preparation
+- Public first-hour playbook pages for AI Ops, RFP Radar, and Reception AI post-purchase use sequences
 - Public resource library page and high-intent pages for AI governance checklists, RFP monitoring spreadsheets, and reception AI human handoff planning
 - Public high-intent pages for generative AI internal use requests, AI workflow inventory, RFP weekly review routines, and reception AI handoff checklists
 - Public support, terms of sale, business information, and commercial disclosure pages for verification and buyer confidence
+- Public license page for internal business use rights and redistribution restrictions
 - Public Japanese resource pages for organic discovery around LLM operations, AI agent governance, RFP monitoring, and reception AI requirements
 - Additional public Japanese resource pages for AI agent human review, AI workflow evidence logs, RFP opportunity scoring, and reception AI fallback planning
 - Public English resource page for AI agent approval workflow planning

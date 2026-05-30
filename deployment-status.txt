@@ -1,6 +1,6 @@
 Billion AI Operations Studio deployment status
 
-Date: 2026-05-29 JST
+Date: 2026-05-30 JST
 Policy: no-touch self-serve digital kit storefront
 Production URL: https://billionai.vercel.app/
 Hosted checkout: not connected
@@ -12,3 +12,4 @@ No-contact operation page: /no-contact-operation.html
 No-contact purchase flow page: /how-it-works.html
 No-touch approval matrix: /autopilot-commerce.html
 No-touch revenue readiness: /autonomous-revenue-readiness.html
+Latest content experiment: purchase-intent resource pages for budget approval, tool selection, KPI planning, internal briefing, 90-day rollout, and training agenda preparation

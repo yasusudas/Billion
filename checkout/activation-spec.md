@@ -15,6 +15,7 @@ The public storefront price and hosted checkout amount must match exactly.
 | `rfp-radar-setup-kit` | RFP Radar Setup Kit | JPY 7,800 | `https://billionai.vercel.app/delivery/rfp-radar-setup-kit.html` |
 | `reception-ai-pilot-kit` | Reception AI Pilot Kit | JPY 6,800 | `https://billionai.vercel.app/delivery/reception-ai-pilot-kit.html` |
 | `ai-operations-starter-bundle` | AI Operations Starter Bundle | JPY 19,800 | `https://billionai.vercel.app/delivery/ai-operations-starter-bundle.html` |
+| `ai-operations-team-rollout-pack` | AI Operations Team Rollout Pack | JPY 98,000 | `https://billionai.vercel.app/delivery/ai-operations-team-rollout-pack.html` |
 
 ## Activation workflow
 
@@ -28,20 +29,40 @@ The public storefront price and hosted checkout amount must match exactly.
 node scripts/validate-checkout-links.mjs checkout/checkout-links.local.json --require-active
 ```
 
-6. If validation passes, apply the links to the static HTML:
+6. If validation passes, dry-run the static replacement. The dry run checks the purchase
+   CTA replacements and the pending-to-active public copy replacements without editing files:
+
+```bash
+node scripts/apply-checkout-links.mjs checkout/checkout-links.local.json --dry-run
+```
+
+7. Apply the links and active checkout status copy to the static HTML:
 
 ```bash
 node scripts/apply-checkout-links.mjs checkout/checkout-links.local.json
 ```
 
-7. Re-run the public-site static scan and publish the changed HTML to GitHub.
+8. Re-run the active public-site static scan and publish the changed HTML to GitHub:
+
+```bash
+node scripts/verify-public-site.mjs --checkout-manifest checkout/checkout-links.local.json --require-active
+```
+
+9. After Vercel reports success, verify production with exact manifest matching:
+
+```bash
+node scripts/verify-live-production.mjs --expect-checkout active --checkout-manifest checkout/checkout-links.local.json
+```
 
 ## Hard stops
 
 - Do not put API keys, signing secrets, payout settings, identity details, tax identifiers, customer logs, card data, invoice IDs, or private buyer data in this repository.
 - Do not activate a checkout link if the amount, currency, product name, or success URL does not match the table above.
+- Use reusable provider-hosted Payment Links for static pages. Do not paste one-time Checkout Session URLs.
+- Do not reuse the same hosted checkout URL across multiple products.
 - Do not add custom payment forms, tracking scripts, customer upload fields, or manual support inbox links to the static site.
 - Do not update revenue records until a real provider or account-owner payment fact exists.
+- Do not publish active checkout while public pages still say checkout or payments are pending.
 
 ## CTA replacement map
 
@@ -55,3 +76,4 @@ only the CTA inside the matching product section.
 | `rfp-radar-setup-kit` | `/` store card | `/kits/rfp-radar-setup-kit.html` |
 | `reception-ai-pilot-kit` | `/` store card | `/kits/reception-ai-pilot-kit.html` |
 | `ai-operations-starter-bundle` | `/` store card | `/kits/ai-operations-starter-bundle.html` |
+| `ai-operations-team-rollout-pack` | `/` store card | `/kits/ai-operations-team-rollout-pack.html` |

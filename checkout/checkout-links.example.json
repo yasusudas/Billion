@@ -40,6 +40,15 @@
       "kit_page": "/kits/ai-operations-starter-bundle.html",
       "delivery_success_url": "https://billionai.vercel.app/delivery/ai-operations-starter-bundle.html",
       "checkout_url": "PENDING_HOSTED_CHECKOUT_URL"
+    },
+    {
+      "id": "ai-operations-team-rollout-pack",
+      "name": "AI Operations Team Rollout Pack",
+      "amount_jpy": 98000,
+      "currency": "JPY",
+      "kit_page": "/kits/ai-operations-team-rollout-pack.html",
+      "delivery_success_url": "https://billionai.vercel.app/delivery/ai-operations-team-rollout-pack.html",
+      "checkout_url": "PENDING_HOSTED_CHECKOUT_URL"
     }
   ]
 }

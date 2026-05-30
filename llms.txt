@@ -2,7 +2,7 @@
 
 Billion AI Operations Studio sells self-serve downloadable business templates, checklists, and operating guides for AI operations planning, public RFP monitoring, and reception AI pilot preparation.
 
-The current self-serve kit delivery files include operating guides, CSV templates, Markdown briefs, workflow inventory, evidence logging, opportunity scoring, dry-run scripts, operator review logs, and a 30-day rollout plan.
+The current self-serve kit delivery files include operating guides, CSV templates, Markdown briefs, workflow inventory, evidence logging, opportunity scoring, dry-run scripts, operator review logs, a 30-day rollout plan, team rollout board, department adoption calendar, manager briefing template, and team license README.
 
 Public business site:
 
@@ -19,10 +19,12 @@ Public business site:
 - https://billionai.vercel.app/how-it-works.html
 - https://billionai.vercel.app/receipt-support.html
 - https://billionai.vercel.app/support.html
+- https://billionai.vercel.app/pricing.html
 - https://billionai.vercel.app/legal/commercial-disclosure.html
 - https://billionai.vercel.app/legal/business-information.html
 - https://billionai.vercel.app/legal/commercial-disclosure.html
 - https://billionai.vercel.app/legal/terms-of-sale.html
+- https://billionai.vercel.app/legal/license.html
 - https://billionai.vercel.app/resources/llm-operations-checklist.html
 - https://billionai.vercel.app/resources/llm-usage-policy-template.html
 - https://billionai.vercel.app/resources/ai-agent-governance-template.html
@@ -47,10 +49,22 @@ Public business site:
 - https://billionai.vercel.app/resources/generative-ai-approval-request-template.html
 - https://billionai.vercel.app/resources/ai-risk-register-template.html
 - https://billionai.vercel.app/resources/ai-roi-readiness-calculator.html
+- https://billionai.vercel.app/resources/generative-ai-budget-request-template.html
+- https://billionai.vercel.app/resources/ai-tool-selection-scorecard.html
+- https://billionai.vercel.app/resources/ai-pilot-kpi-template.html
+- https://billionai.vercel.app/resources/ai-team-rollout-roadmap-template.html
+- https://billionai.vercel.app/resources/department-ai-adoption-calendar-template.html
+- https://billionai.vercel.app/resources/ai-manager-briefing-template.html
+- https://billionai.vercel.app/resources/ai-internal-briefing-one-pager.html
+- https://billionai.vercel.app/resources/generative-ai-90-day-rollout-roadmap.html
+- https://billionai.vercel.app/resources/generative-ai-training-agenda-template.html
 - https://billionai.vercel.app/resources/rfp-go-no-go-checklist.html
 - https://billionai.vercel.app/resources/rfp-response-readiness-scorecard.html
 - https://billionai.vercel.app/resources/reception-ai-test-script-template.html
 - https://billionai.vercel.app/resources/reception-ai-volume-estimator.html
+- https://billionai.vercel.app/playbooks/ai-ops-first-hour.html
+- https://billionai.vercel.app/playbooks/rfp-radar-first-hour.html
+- https://billionai.vercel.app/playbooks/reception-ai-first-hour.html
 - https://billionai.vercel.app/buyers/ai-operations-manager.html
 - https://billionai.vercel.app/buyers/proposal-manager.html
 - https://billionai.vercel.app/buyers/front-office-manager.html
@@ -69,6 +83,7 @@ Public business site:
 - https://billionai.vercel.app/kits/rfp-radar-setup-kit.html
 - https://billionai.vercel.app/kits/reception-ai-pilot-kit.html
 - https://billionai.vercel.app/kits/ai-operations-starter-bundle.html
+- https://billionai.vercel.app/kits/ai-operations-team-rollout-pack.html
 - https://billionai.vercel.app/guides/ai-operations-risk-checklist.html
 - https://billionai.vercel.app/guides/rfp-radar-workflow.html
 - https://billionai.vercel.app/guides/reception-ai-pilot-plan.html
@@ -83,6 +98,7 @@ Important constraints:
 - The public pages include no forms, client-side scripts, tracking code, custom checkout code, or upload fields.
 - Free guides are public planning content and do not include forms, tracking, or delivery-file links.
 - FAQ, comparison, and sample pages are public buyer-qualification content and do not expose full delivery files.
+- The pricing page lists fixed tax-included product amounts and no-contact scope without adding checkout markers.
 - The purchase self-check page supports no-contact kit selection and does not collect buyer information.
 - The how-it-works page explains public discovery, self-selection, hosted checkout, and digital delivery without adding manual contact routes.
 - The no-contact operation page states that manual outreach, contact forms, sales calls, custom quote conversations, manual posting, and manual onboarding are excluded.
@@ -93,10 +109,15 @@ Important constraints:
 - The resource library page groups public planning resources by AI operations, RFP monitoring, and reception AI pilot intent without collecting buyer information.
 - Additional high-intent Japanese resource pages target generative AI internal use requests, AI workflow inventories, RFP weekly routines, and reception AI human handoff checklists.
 - Additional paid-kit-linked resource pages target AI ROI readiness, RFP response readiness, and reception AI volume estimation.
+- Additional team-rollout resource pages target AI team rollout roadmap planning, department adoption calendars, and manager briefing preparation.
+- Additional purchase-intent resource pages target budget requests, tool selection scorecards, pilot KPI planning, internal briefing, 90-day rollout, and training agenda preparation.
+- First-hour playbook pages show post-purchase first 60-minute use sequences for each core kit without collecting buyer information.
 - Buyer role pages are no-call purchase guides and do not include forms, tracking, or manual contact paths.
 - Template preview pages describe fields and buyer fit, but do not expose full delivery files.
 - Use-case pages are product selection guides, not implementation advice or outcome guarantees.
 - Support and terms pages are static, no-form policy pages. Purchaser support is limited to the provider-hosted receipt route after checkout activation.
+- The license page states internal business use, redistribution restrictions, team scope, and no-service boundaries.
+- The team rollout pack is a higher-scope self-serve product for internal multi-department rollout planning, not a managed rollout service.
 - Business information and commercial disclosure pages state the public business name, URL, product type, price range, fulfillment model, descriptor candidates, and restrictions.
 - Services do not include regulated financial advice, legal representation, medical diagnosis, lending, gambling, employment decisions, or physical goods.
 - Full paid delivery files should remain outside this public verification repository while hosted checkout and fulfillment are pending.

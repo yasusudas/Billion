@@ -31,10 +31,17 @@ export const EXPECTED_PRODUCTS = {
     currency: "JPY",
     kit_page: "/kits/ai-operations-starter-bundle.html",
     delivery_success_url: "https://billionai.vercel.app/delivery/ai-operations-starter-bundle.html"
+  },
+  "ai-operations-team-rollout-pack": {
+    name: "AI Operations Team Rollout Pack",
+    amount_jpy: 98000,
+    currency: "JPY",
+    kit_page: "/kits/ai-operations-team-rollout-pack.html",
+    delivery_success_url: "https://billionai.vercel.app/delivery/ai-operations-team-rollout-pack.html"
   }
 };
 
-const ALLOWED_CHECKOUT_HOSTS = new Set(["buy.stripe.com", "checkout.stripe.com"]);
+const ALLOWED_CHECKOUT_HOSTS = new Set(["buy.stripe.com"]);
 const SECRET_OR_PRIVATE_TOKEN_PATTERN =
   /\b(sk|rk|whsec)_(live|test)_[A-Za-z0-9]+|\bpk_(live|test)_[A-Za-z0-9]+|\b(?:pi|cs|in|cus|acct)_[A-Za-z0-9]{10,}/;
 const PENDING_VALUES = new Set(["", "PENDING_HOSTED_CHECKOUT_URL"]);
@@ -89,7 +96,7 @@ function validateHostedCheckoutUrl(product, requireActive, errors) {
   }
 
   if (!ALLOWED_CHECKOUT_HOSTS.has(parsed.hostname)) {
-    fail(errors, `${product.id}: checkout_url host must be Stripe-hosted (${[...ALLOWED_CHECKOUT_HOSTS].join(", ")}).`);
+    fail(errors, `${product.id}: checkout_url host must be a reusable Stripe Payment Link (${[...ALLOWED_CHECKOUT_HOSTS].join(", ")}).`);
   }
 
   if (parsed.hostname === "buy.stripe.com" && /^\/test_/i.test(parsed.pathname)) {
@@ -189,6 +196,20 @@ export function validateCheckoutManifest(manifest, raw, options = {}) {
       continue;
     }
     validateProduct(product, EXPECTED_PRODUCTS[id], requireActive, errors);
+  }
+
+  const seenCheckoutUrls = new Map();
+  for (const product of manifest.products) {
+    const checkoutUrl = typeof product.checkout_url === "string" ? product.checkout_url.trim() : "";
+    if (PENDING_VALUES.has(checkoutUrl)) {
+      continue;
+    }
+    const existingProductId = seenCheckoutUrls.get(checkoutUrl);
+    if (existingProductId) {
+      fail(errors, `${product.id}: checkout_url duplicates ${existingProductId}.`);
+    } else {
+      seenCheckoutUrls.set(checkoutUrl, product.id);
+    }
   }
 
   return errors;
